@@ -1,0 +1,9 @@
+services:
+  quality-atlas:
+    build: .
+    ports:
+      - "4173:4173"
+    environment:
+      HOST: 0.0.0.0
+      PORT: 4173
+    restart: unless-stopped

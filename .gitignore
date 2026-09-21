@@ -1,0 +1,9 @@
+.codex/
+node_modules/
+.DS_Store
+Thumbs.db
+.obsidian/workspace*.json
+.obsidian/cache
+npm-debug.log*
+dist/
+coverage/

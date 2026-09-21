@@ -1,0 +1,26 @@
+{
+  "name": "quality-atlas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bilingual, vendor-neutral QA and software testing knowledge base",
+  "type": "module",
+  "scripts": {
+    "dev": "node web/server.mjs",
+    "start": "node web/server.mjs",
+    "check": "node scripts/check-content.mjs",
+    "manifest": "node scripts/check-content.mjs --print-manifest"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "quality-assurance",
+    "software-testing",
+    "qa-engineering",
+    "test-automation",
+    "knowledge-base",
+    "obsidian",
+    "bilingual"
+  ],
+  "license": "SEE LICENSE IN LICENSE"
+}
