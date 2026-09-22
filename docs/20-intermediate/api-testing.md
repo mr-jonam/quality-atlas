@@ -6,9 +6,8 @@ tags: [api-testing, contracts, integration, data]
 updated: 2026-09-21
 ---
 
-# API and Contract Testing / Test di API e contratti
+# API and Contract Testing
 
-## English
 
 API tests provide fast, focused evidence at service boundaries. Treat the contract as behavior, not only a schema.
 
@@ -23,13 +22,3 @@ API tests provide fast, focused evidence at service boundaries. Treat the contra
 - backward and forward compatibility for consumers.
 
 Contract tests check assumptions between a provider and its consumers. They complement, but do not replace, integration and end-to-end tests. Use service virtualization when a dependency is costly or unstable, while retaining a smaller number of real integration checks to detect drift.
-
-## Italiano
-
-I test API producono feedback rapido e mirato ai confini dei servizi. Considera il contratto come comportamento, non solo come schema.
-
-Verifica metodi, path, status, header, tipi media, campi obbligatori o opzionali, autenticazione, autorizzazione, limiti, richieste non valide, paginazione, idempotenza, timeout, retry, forma degli errori e compatibilità.
-
-I contract test verificano le assunzioni tra provider e consumer. Integrano, ma non sostituiscono, i test di integrazione ed end-to-end. La virtualizzazione riduce costo e instabilità; mantieni alcuni controlli reali per rilevare deriva tra simulazione e dipendenza.
-
-Checklist: `templates/api-checklist.md`.

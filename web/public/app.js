@@ -1,5 +1,7 @@
 // SPDX-License-Identifier: MIT
 const state = { notes: [], filtered: [], active: null };
+const groupLabels = {"start":"start","foundations":"foundations","intermediate":"intermediate","advanced":"advanced","playbooks":"playbooks","reference":"reference","templates":"templates"};
+const groupLabel = (value) => groupLabels[value] || value;
 const elements = {
   content: document.querySelector("#content"),
   navigation: document.querySelector("#navigation"),
@@ -168,7 +170,7 @@ function renderNavigation() {
   for (const note of state.filtered) groups.set(note.group, [...(groups.get(note.group) || []), note]);
   elements.navigation.innerHTML = [...groups.entries()].map(([group, notes]) => `
     <section class="nav-group">
-      <h2>${escapeHtml(group)}</h2>
+      <h2>${escapeHtml(groupLabel(group))}</h2>
       ${notes.map((note) => `<a href="#/doc/${note.id}" data-id="${note.id}" class="${note.id === state.active?.id ? "active" : ""}"><span>${escapeHtml(note.title)}</span><small>${escapeHtml(note.level)}</small></a>`).join("")}
     </section>`).join("");
 }
@@ -178,8 +180,8 @@ function showNote(id) {
   if (!note) return;
   state.active = note;
   document.title = `${note.title} | Quality Atlas`;
-  elements.crumb.textContent = `${note.group} / ${note.title}`;
-  elements.source.href = `https://github.com/mr-jonam/quality-atlas/blob/main/${note.path}`;
+  elements.crumb.textContent = `${groupLabel(note.group)} / ${note.title}`;
+  elements.source.href = `https://github.com/mr-jonam/quality-atlas/blob/lang/en/${note.path}`;
   elements.content.innerHTML = `
     <article class="note">
       <div class="note-meta"><span>${escapeHtml(note.level)}</span><time datetime="${escapeHtml(note.updated)}">Updated ${escapeHtml(note.updated)}</time></div>

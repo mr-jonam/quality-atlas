@@ -6,9 +6,8 @@ tags: [test-automation, maintainability, test-pyramid, flakiness]
 updated: 2026-09-21
 ---
 
-# Test Automation Engineering / Ingegneria dell'automazione
+# Test Automation Engineering
 
-## English
 
 Automation is software that generates feedback. Its value depends on detection capability, speed, trust, maintenance cost, and diagnostic clarity.
 
@@ -29,13 +28,5 @@ Prefer many fast checks close to the logic, focused service and contract checks,
 - measure flaky behavior and fix root causes.
 
 Page objects or similar abstractions are useful when they express stable user actions. Avoid layers that hide intent or reproduce the application implementation.
-
-## Italiano
-
-L'automazione è software che genera feedback. Il valore dipende da capacità di rilevazione, velocità, fiducia, costo di manutenzione e chiarezza diagnostica.
-
-Automatizza controlli ripetuti, sufficientemente deterministici, utili se eseguiti spesso e sostenibili. Mantieni esplorazione umana per novità, ambiguità, usabilità e comportamenti inattesi.
-
-Preferisci molti controlli rapidi vicini alla logica, test mirati di servizio e contratto e pochi percorsi utente critici. Controlla dati e stato, attendi condizioni osservabili, verifica risultati significativi, isola i test e produci diagnostica concisa. Una quarantena deve avere owner, motivo e data di rimozione.
 
 Related: [[ci-cd-quality-gates]], [[../30-advanced/testability-architecture]].

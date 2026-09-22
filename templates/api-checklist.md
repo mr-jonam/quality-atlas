@@ -6,7 +6,7 @@ tags: [template, api-testing, checklist]
 updated: 2026-09-21
 ---
 
-# API test checklist / Checklist test API
+# API test checklist
 
 - [ ] Contract, methods, paths, status codes, headers, and media types
 - [ ] Required, optional, null, default, and unknown fields

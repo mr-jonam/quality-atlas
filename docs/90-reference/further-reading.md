@@ -6,11 +6,10 @@ tags: [references, standards, learning]
 updated: 2026-09-22
 ---
 
-# Further Reading / Approfondimenti
+# Further Reading
 
 These links lead to authoritative public sources. Standards and guidance evolve; verify the current version before using them for compliance or certification.
 
-Questi link rimandano a fonti pubbliche autorevoli. Standard e linee guida evolvono: verifica la versione corrente prima di usarli per conformità o certificazione.
 
 - [ISTQB Certified Tester Foundation Level](https://www.istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0/): structured testing vocabulary and foundation syllabus.
 - [OWASP Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/): web security testing guidance.

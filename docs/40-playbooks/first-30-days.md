@@ -6,9 +6,8 @@ tags: [onboarding, knowledge-transfer, first-30-days]
 updated: 2026-09-21
 ---
 
-# First 30 Days in a QA Role / Primi 30 giorni in un ruolo QA
+# First 30 Days in a QA Role
 
-## English
 
 ### Days 1–10: understand
 
@@ -30,17 +29,3 @@ updated: 2026-09-21
 - Communicate coverage and residual risk.
 - Propose one measurable improvement to feedback speed or quality.
 - Agree on the next learning goal with a peer or lead.
-
-## Italiano
-
-### Giorni 1–10: comprendere
-
-Impara outcome, utenti, percorsi critici e vocabolario. Mappa ambienti, delivery, dati e rischi. Osserva una modifica dall'idea al deployment e rivedi alcuni difetti o incidenti recenti.
-
-### Giorni 11–20: contribuire
-
-Lavora in pairing su rischi, test design e una sessione esplorativa. Esegui la pipeline esistente e migliora una nota poco chiara, un controllo inaffidabile o una lacuna diagnostica.
-
-### Giorni 21–30: assumere un piccolo outcome
-
-Guida il testing di una modifica limitata, comunica copertura e rischio residuo, proponi un miglioramento misurabile e concorda il prossimo obiettivo di apprendimento.

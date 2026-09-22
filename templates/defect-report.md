@@ -6,38 +6,38 @@ tags: [template, defect]
 updated: 2026-09-21
 ---
 
-# Defect report / Segnalazione difetto
+# Defect report
 
-## Title / Titolo
+## Title
 
 `[Behavior] when [condition], causing [consequence]`
 
-## Context / Contesto
+## Context
 
 - Build/version:
 - Environment:
 - Data state, anonymized:
 - Reproducibility:
 
-## Steps / Passi
+## Steps
 
 1.
 2.
 3.
 
-## Observed / Osservato
+## Observed
 
 
-## Expected or oracle / Atteso o oracolo
+## Expected or oracle
 
 
-## Impact / Impatto
+## Impact
 
 - Affected users or systems:
 - Frequency and reach:
 - Recovery or workaround:
 - Data/security/accessibility implications:
 
-## Evidence / Evidenze
+## Evidence
 
 Add only focused, sanitized logs, responses, screenshots, or traces.

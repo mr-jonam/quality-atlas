@@ -6,9 +6,8 @@ tags: [leadership, coaching, knowledge-transfer, governance]
 updated: 2026-09-21
 ---
 
-# Quality Leadership and Knowledge Transfer / Leadership e KT
+# Quality Leadership and Knowledge Transfer
 
-## English
 
 Quality leadership creates clarity, capability, and feedback loops. It does not centralize every decision in a QA function.
 
@@ -25,13 +24,3 @@ Quality leadership creates clarity, capability, and feedback loops. It does not 
 ### Knowledge transfer
 
 A KT plan should define audience, outcomes, prerequisites, source material, hands-on exercises, feedback, and ownership after the session. Prefer recorded decisions and runnable examples over a long presentation. Verify transfer by asking the learner to perform and explain a realistic task.
-
-## Italiano
-
-La leadership della qualità crea chiarezza, capacità e cicli di feedback. Non centralizza ogni decisione nella funzione QA.
-
-Facilita workshop sui rischi, condividi criteri osservabili, usa pairing tra ruoli, mantieni mappe leggere di percorsi e dipendenze, studia i difetti senza colpevolizzare e finanzia manutenzione di ambienti, dati, tooling e osservabilità.
-
-Un piano KT definisce pubblico, risultati, prerequisiti, fonti, esercizi pratici, feedback e ownership successiva. Preferisci decisioni registrate ed esempi eseguibili a lunghe presentazioni. Verifica il trasferimento chiedendo al partecipante di svolgere e spiegare un compito realistico.
-
-Template: `templates/knowledge-transfer-plan.md`.

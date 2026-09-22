@@ -6,7 +6,7 @@ tags: [template, knowledge-transfer, onboarding]
 updated: 2026-09-21
 ---
 
-# Knowledge transfer plan / Piano KT
+# Knowledge transfer plan
 
 - Topic:
 - Audience and prerequisites:

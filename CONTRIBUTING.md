@@ -5,7 +5,7 @@ Contributions that improve clarity, correctness, accessibility, or language pari
 ## Content rules
 
 - Keep every note useful without organization-specific context.
-- Write English first and Italian second, with matching meaning.
+- Write all educational content in English. Keep meaning aligned with the main branch.
 - Use fictional, generic examples and non-sensitive sample data.
 - Never add names, customer information, credentials, private URLs, internal architecture, or proprietary playbooks.
 - Prefer concise explanations, observable outcomes, and practical checklists.

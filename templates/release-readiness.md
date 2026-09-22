@@ -6,7 +6,7 @@ tags: [template, release, readiness]
 updated: 2026-09-21
 ---
 
-# Release readiness / Readiness al rilascio
+# Release readiness
 
 - Release/change:
 - Decision time:

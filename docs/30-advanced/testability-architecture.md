@@ -6,9 +6,8 @@ tags: [testability, architecture, observability, controllability]
 updated: 2026-09-21
 ---
 
-# Testability and Architecture / Testabilità e architettura
+# Testability and Architecture
 
-## English
 
 Testability is the degree to which a system supports efficient investigation and evaluation. It is an architectural property, not only a testing concern.
 
@@ -25,11 +24,3 @@ Avoid adding unsafe production backdoors for testing. Diagnostic interfaces need
 ### Architecture review prompts
 
 Can a failure be localized? Can time and randomness be controlled? Can dependencies fail predictably in a test environment? Can data be created and removed safely? Can a change be exposed progressively and rolled back? Can consumers verify compatibility before deployment?
-
-## Italiano
-
-La testabilità misura quanto un sistema supporti indagine e valutazione efficienti. È una proprietà architetturale, non solo un problema del testing.
-
-Le leve principali sono osservabilità, controllabilità, decomponibilità, riproducibilità e comprensibilità. Servono log, metriche e trace significativi, input e tempo controllabili, confini chiari, configurazioni versionate, data builder, contratti espliciti e semantica degli errori.
-
-Evita backdoor di produzione non sicure. Le interfacce diagnostiche richiedono autenticazione, autorizzazione, audit e controlli ambientali.

@@ -6,9 +6,8 @@ tags: [release, readiness, risk, playbook]
 updated: 2026-09-21
 ---
 
-# Release Readiness Review / Verifica di readiness al rilascio
+# Release Readiness Review
 
-## English
 
 A readiness review assembles decision evidence; it should not be a ceremonial QA approval.
 
@@ -24,13 +23,3 @@ A readiness review assembles decision evidence; it should not be a ceremonial QA
 - required approvals for security, privacy, accessibility, or regulation.
 
 Record the decision, assumptions, owner, time, and conditions. A conditional release must have measurable conditions and a named follow-up.
-
-## Italiano
-
-La readiness raccoglie evidenze per decidere; non dovrebbe essere un'approvazione cerimoniale del QA.
-
-Rivedi scope e outcome, componenti e configurazioni modificate, rischi principali, difetti aperti, deployment, migrazioni, compatibilità, rollback, monitoraggio, supporto, progressive delivery e approvazioni necessarie.
-
-Registra decisione, assunzioni, owner, momento e condizioni. Un rilascio condizionato richiede condizioni misurabili e un follow-up assegnato.
-
-Use `templates/release-readiness.md`.

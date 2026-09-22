@@ -6,7 +6,7 @@ tags: [template, exploratory-testing]
 updated: 2026-09-21
 ---
 
-# Exploratory charter / Charter esplorativo
+# Exploratory charter
 
 Explore **[target]** with **[resources or techniques]** to discover information about **[risk or question]**.
 
@@ -17,7 +17,7 @@ Explore **[target]** with **[resources or techniques]** to discover information 
 - In scope:
 - Out of scope:
 
-## Notes / Note
+## Notes
 
 | Time | Action | Observation, idea, issue, or question |
 |---|---|---|
@@ -25,8 +25,8 @@ Explore **[target]** with **[resources or techniques]** to discover information 
 
 ## Debrief
 
-- Coverage / Copertura:
-- Findings / Risultati:
-- Evidence / Evidenze:
-- Open questions / Domande aperte:
-- Follow-ups / Prossime azioni:
+- Coverage
+- Findings
+- Evidence
+- Open questions
+- Follow-ups

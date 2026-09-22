@@ -6,18 +6,18 @@ tags: [template, strategy, risk]
 updated: 2026-09-21
 ---
 
-# Lightweight test strategy / Strategia di test leggera
+# Lightweight test strategy
 
-## Outcome and scope / Obiettivo e ambito
+## Outcome and scope
 
 
-## Quality risks / Rischi di qualità
+## Quality risks
 
 | Risk | Impact | Likelihood | Planned evidence or mitigation | Owner |
 |---|---|---|---|---|
 | | | | | |
 
-## Test approach / Approccio
+## Test approach
 
 - Static review:
 - Unit/component:
@@ -26,13 +26,13 @@ updated: 2026-09-21
 - Non-functional quality:
 - Production safeguards:
 
-## Environments and data / Ambienti e dati
+## Environments and data
 
 
-## Entry signals and exit evidence / Segnali di ingresso ed evidenze di uscita
+## Entry signals and exit evidence
 
 
-## Constraints and residual risk / Vincoli e rischio residuo
+## Constraints and residual risk
 
 
-## Review date / Data di revisione
+## Review date
