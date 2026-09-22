@@ -3,7 +3,7 @@ title: Further Reading
 level: all
 roles: [qa-analyst, qa-engineer, automation-engineer, test-lead, developer, product]
 tags: [references, standards, learning]
-updated: 2026-09-21
+updated: 2026-09-22
 ---
 
 # Further Reading / Approfondimenti
@@ -20,5 +20,6 @@ Questi link rimandano a fonti pubbliche autorevoli. Standard e linee guida evolv
 - [Google Testing Blog](https://testing.googleblog.com/): public articles on testing engineering practices.
 - [Martin Fowler: Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html): a practical discussion of layered automated tests.
 - [RFC Editor](https://www.rfc-editor.org/): primary internet protocol specifications.
+- [roadmap.sh QA Engineer](https://roadmap.sh/qa): a community-maintained visual overview of commonly encountered QA learning topics and tool categories. Quality Atlas uses it as one input, not as an endorsed or exhaustive curriculum.
 
 No external source endorses or is affiliated with this repository.

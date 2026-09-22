@@ -7,6 +7,7 @@ Quality Atlas è una knowledge base aperta e bilingue dedicata alla quality assu
 ## Start here / Inizia qui
 
 - Open [`docs/00-start/home.md`](docs/00-start/home.md) in GitHub or Obsidian.
+- Use the independent [`QA Engineer roadmap`](docs/00-start/qa-engineer-roadmap.md) for a sequenced path inspired by common public curricula.
 - Follow a role-based route in [`docs/00-start/learning-paths.md`](docs/00-start/learning-paths.md).
 - Copy and adapt the worksheets in [`templates/`](templates/).
 - Run the web reader with Node.js or Docker.
@@ -45,6 +46,14 @@ The material is vendor-neutral and based on broadly available testing knowledge.
 ## Contributing
 
 Read [`CONTRIBUTING.md`](CONTRIBUTING.md). Run `npm run check` before opening a pull request.
+
+## Support / Sostieni il progetto
+
+If Quality Atlas helps your learning or onboarding, you can support its maintenance through [GitHub Sponsors](https://github.com/sponsors/mr-jonam). Donations are optional and do not influence the educational content.
+
+Se Quality Atlas è utile per apprendimento o onboarding, puoi sostenerne la manutenzione tramite [GitHub Sponsors](https://github.com/sponsors/mr-jonam). Le donazioni sono facoltative e non influenzano i contenuti educativi.
+
+GitHub also displays the **Sponsor** button using [`.github/FUNDING.yml`](.github/FUNDING.yml).
 
 ## License
 

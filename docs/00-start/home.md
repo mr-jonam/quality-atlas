@@ -3,7 +3,7 @@ title: Quality Atlas Home
 level: all
 roles: [qa-analyst, qa-engineer, automation-engineer, test-lead, developer, product]
 tags: [qa, software-testing, onboarding, knowledge-transfer]
-updated: 2026-09-21
+updated: 2026-09-22
 ---
 
 # Quality Atlas
@@ -17,6 +17,7 @@ Quality is a shared product capability. Testing contributes information about ri
 ### Choose an entry point
 
 - New to testing: [[learning-paths#Foundation route]]
+- Want the complete sequence: [[qa-engineer-roadmap]]
 - Moving into automation: [[learning-paths#Automation route]]
 - Coordinating quality: [[learning-paths#Test lead route]]
 - Building quality as a developer or product partner: [[role-map]]
@@ -24,8 +25,8 @@ Quality is a shared product capability. Testing contributes information about ri
 
 ### Knowledge map
 
-1. **Foundations**: mindset, terminology, test design, defect communication.
-2. **Intermediate**: risk, strategy, API and UI testing, automation, delivery pipelines.
+1. **Foundations**: mindset, terminology, SDLC, test design, defect communication.
+2. **Intermediate**: risk, strategy, API and UI testing, automation, delivery pipelines, test operations.
 3. **Advanced**: architecture, performance, security, observability, leadership.
 4. **Playbooks**: short workflows for recurring quality activities.
 5. **Reference**: glossary and authoritative public resources.
@@ -37,6 +38,7 @@ La qualità è una capacità condivisa del prodotto. Il testing produce informaz
 ### Scegli un punto di partenza
 
 - Prime esperienze nel testing: [[learning-paths#Percorso base]]
+- Percorso completo in sequenza: [[qa-engineer-roadmap]]
 - Passaggio all'automazione: [[learning-paths#Percorso automazione]]
 - Coordinamento della qualità: [[learning-paths#Percorso test lead]]
 - Qualità per sviluppo o prodotto: [[role-map]]
@@ -44,8 +46,8 @@ La qualità è una capacità condivisa del prodotto. Il testing produce informaz
 
 ### Mappa della conoscenza
 
-1. **Fondamenti**: mentalità, terminologia, progettazione dei test, comunicazione dei difetti.
-2. **Intermedio**: rischio, strategia, test API e UI, automazione, pipeline.
+1. **Fondamenti**: mentalità, terminologia, SDLC, progettazione dei test, comunicazione dei difetti.
+2. **Intermedio**: rischio, strategia, test API e UI, automazione, pipeline, test operations.
 3. **Avanzato**: architettura, performance, sicurezza, osservabilità, leadership.
 4. **Playbook**: flussi brevi per attività ricorrenti.
 5. **Riferimenti**: glossario e risorse pubbliche autorevoli.

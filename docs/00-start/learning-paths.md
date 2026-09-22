@@ -3,7 +3,7 @@ title: Learning Paths
 level: all
 roles: [qa-analyst, qa-engineer, automation-engineer, test-lead, developer]
 tags: [learning-path, onboarding, career]
-updated: 2026-09-21
+updated: 2026-09-22
 ---
 
 # Learning Paths / Percorsi di apprendimento
@@ -16,9 +16,10 @@ Suggested outcome: explain what testing can reveal, design useful checks, run an
 
 1. [[../10-foundations/qa-mindset]]
 2. [[../10-foundations/testing-fundamentals]]
-3. [[../10-foundations/test-design-techniques]]
-4. [[../10-foundations/defect-communication]]
-5. [[../40-playbooks/exploratory-session]]
+3. [[../10-foundations/sdlc-testing-models]]
+4. [[../10-foundations/test-design-techniques]]
+5. [[../10-foundations/defect-communication]]
+6. [[../40-playbooks/exploratory-session]]
 
 ### Automation route
 
@@ -28,7 +29,8 @@ Suggested outcome: choose an appropriate automation layer, write maintainable ch
 2. [[../20-intermediate/api-testing]]
 3. [[../20-intermediate/automation-engineering]]
 4. [[../20-intermediate/ci-cd-quality-gates]]
-5. [[../30-advanced/testability-architecture]]
+5. [[../20-intermediate/test-operations]]
+6. [[../30-advanced/testability-architecture]]
 
 ### Test lead route
 
@@ -41,13 +43,17 @@ Suggested outcome: establish a risk-based strategy, make release evidence visibl
 5. [[../30-advanced/quality-leadership]]
 6. [[../40-playbooks/release-readiness]]
 
+### Complete QA engineer route
+
+Use [[qa-engineer-roadmap]] to connect foundations, delivery models, functional and non-functional testing, automation, operations and quality leadership in one sequence.
+
 ## Italiano
 
 ### Percorso base
 
 Risultato atteso: spiegare cosa può rivelare il testing, progettare controlli utili, condurre una sessione esplorativa e descrivere un difetto con chiarezza.
 
-Segui le cinque note del percorso Foundation elencate sopra.
+Segui le sei note del percorso Foundation elencate sopra.
 
 ### Percorso automazione
 
@@ -60,6 +66,10 @@ Completa il percorso base, poi studia API testing, automation engineering, quali
 Risultato atteso: definire una strategia basata sul rischio, rendere visibili le evidenze di rilascio e far crescere un sistema di apprendimento senza diventare un collo di bottiglia.
 
 Completa il percorso base, poi approfondisci strategia, qualità non funzionale, metriche, leadership e release readiness.
+
+### Percorso QA engineer completo
+
+Usa [[qa-engineer-roadmap]] per collegare fondamenti, modelli di delivery, test funzionali e non funzionali, automazione, operations e leadership della qualità.
 
 ## Study loop / Ciclo di studio
 
