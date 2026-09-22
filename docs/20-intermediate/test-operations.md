@@ -1,46 +1,33 @@
 ---
-title: Test Operations, Data, and Reporting
+title: Operaciones de prueba, datos e informes
 level: intermediate
 roles: [qa-analyst, qa-engineer, automation-engineer, test-lead, developer]
 tags: [test-management, test-data, reporting, version-control, observability]
 updated: 2026-09-22
 ---
+# Operaciones de prueba, datos e informes
 
-# Test Operations, Data, and Reporting / Operations, dati e reporting di test
 
-## English
+Las operaciones de prueba hacen que el trabajo de calidad sea repetible y auditable sin convertirlo en burocracia. Las herramientas deben respaldar el flujo de trabajo, no definirlo.
 
-Test operations make quality work repeatable and auditable without turning it into bureaucracy. Tools should support the workflow, not define it.
+### Planificar y gestionar
 
-### Plan and manage
+- conectar el alcance con los riesgos y decisiones del producto;
+- registrar cartas, escenarios o casos sólo al nivel útil de detalle;
+- asignar propiedad y conservar evidencia cerca del cambio;
+- estrategias de versión, controles automatizados y configuración con Git;
+- revisar pruebas obsoletas y coberturas duplicadas.
 
-- connect scope to product risks and decisions;
-- record charters, scenarios or cases only at the useful level of detail;
-- assign ownership and keep evidence close to the change;
-- version strategies, automated checks and configuration with Git;
-- review obsolete tests and duplicated coverage.
+### Administre los datos de la prueba de forma segura
 
-### Manage test data safely
+Utilice datos sintéticos o adecuadamente anonimizados de forma predeterminada. Defina controles de configuración, limpieza, retención y acceso. Mantenga secretos fuera de los repositorios y registros. Diseñe datos para límites, relaciones, estados del ciclo de vida y modos de falla en lugar de copiar registros de producción.
 
-Use synthetic or properly anonymized data by default. Define setup, cleanup, retention and access controls. Keep secrets outside repositories and logs. Design data for boundaries, relationships, lifecycle states and failure modes rather than copying production records.
+### Informe para decisiones
 
-### Report for decisions
+Un resultado útil indica qué se ejecutó, dónde, contra qué versión, qué cambió, qué falló y el riesgo resultante. Prefiera tendencias y diagnósticos procesables al teatro de conteo de pases. Separe los fallos del producto, los defectos de las pruebas, los problemas medioambientales y los resultados desconocidos.
 
-A useful result states what ran, where, against which version, what changed, what failed and the resulting risk. Prefer trends and actionable diagnostics over pass-count theater. Separate product failures, test defects, environment problems and unknown outcomes.
+### Conectar evidencia en tiempo de ejecución
 
-### Connect runtime evidence
+Los registros, seguimientos, métricas y alertas ayudan a explicar las fallas y revelar comportamientos que las comprobaciones previas al lanzamiento no pueden reproducir. El seguimiento no sustituye a las pruebas; juntos forman un sistema de retroalimentación. Conserve solo la evidencia necesaria y aplique la retención teniendo en cuenta la privacidad.
 
-Logs, traces, metrics and alerts help explain failures and reveal behavior that pre-release checks cannot reproduce. Monitoring is not a substitute for testing; together they form a feedback system. Preserve only necessary evidence and apply privacy-aware retention.
-
-## Italiano
-
-Le test operations rendono il lavoro sulla qualità ripetibile e verificabile senza trasformarlo in burocrazia. Gli strumenti devono supportare il flusso, non definirlo.
-
-- Collega ambito, rischi di prodotto e decisioni; conserva charter, scenari o casi solo al livello di dettaglio utile.
-- Versiona strategie, controlli automatici e configurazione con Git; rimuovi test obsoleti e coperture duplicate.
-- Usa dati sintetici o correttamente anonimizzati, con regole per preparazione, pulizia, conservazione e accesso. Mantieni segreti fuori da repository e log.
-- Un report utile indica cosa è stato eseguito, ambiente, versione, cambiamenti, fallimenti e rischio risultante. Distingui problemi di prodotto, test, ambiente ed esiti incerti.
-- Log, trace, metriche e alert spiegano i fallimenti e completano i controlli pre-rilascio. Conserva solo le evidenze necessarie con retention attenta alla privacy.
-
-Related: [[risk-based-strategy]], [[ci-cd-quality-gates]], [[../30-advanced/metrics-observability]].
-
+Relacionado: [[risk-based-strategy]], [[ci-cd-quality-gates]], [[../30-advanced/metrics-observability]].

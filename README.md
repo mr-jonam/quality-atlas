@@ -1,63 +1,69 @@
-# Quality Atlas
+# Atlas de calidad
 
-Quality Atlas is an open, bilingual knowledge base for software quality assurance and testing. It supports onboarding, knowledge transfer, self-study, interview preparation, and team learning from foundation to advanced level.
+Quality Atlas es una base de conocimientos abierta en español para pruebas y control de calidad de software. Apoya la incorporación, la transferencia de conocimientos, el autoestudio, la preparación de entrevistas y el aprendizaje en equipo desde el nivel básico hasta el avanzado.
 
-Quality Atlas è una knowledge base aperta e bilingue dedicata alla quality assurance e al software testing. Supporta onboarding, knowledge transfer, studio autonomo, preparazione ai colloqui e apprendimento di team, dal livello base a quello avanzato.
 
-## Start here / Inizia qui
+## Empieza aquí
 
-- Open [`docs/00-start/home.md`](docs/00-start/home.md) in GitHub or Obsidian.
-- Use the independent [`QA Engineer roadmap`](docs/00-start/qa-engineer-roadmap.md) for a sequenced path inspired by common public curricula.
-- Follow a role-based route in [`docs/00-start/learning-paths.md`](docs/00-start/learning-paths.md).
-- Copy and adapt the worksheets in [`templates/`](templates/).
-- Run the web reader with Node.js or Docker.
+- Abra [`docs/00-start/home.md`](docs/00-start/home.md) en GitHub u Obsidian.
+- Utilice la [`hoja de ruta del ingeniero de calidad`](docs/00-start/qa-engineer-roadmap.md) independiente para obtener un camino secuenciado inspirado en los planes de estudio públicos comunes.
+- Siga una ruta basada en roles en [`docs/00-start/learning-paths.md`](docs/00-start/learning-paths.md).
+- Copiar y adaptar las hojas de trabajo en [`templates/`](templates/).
+- Ejecutar el lector web con Node.js o Docker.
 
-## Run the web reader / Avvia il sito
+## Ejecute el lector web
 
-Node.js 20 or newer:
+Node.js 20 o más reciente:
 
-```bash
-npm run dev
+```golpecito
+npm ejecutar desarrollador
 ```
 
-Then open `http://localhost:4173`.
+Luego abra `http://localhost:4173`.
 
-Docker:
+acoplador:
 
-```bash
-docker compose up --build
+```golpecito
+ventana acoplable componer --compilar
 ```
 
-The reader indexes Markdown at startup and provides navigation, filters, bilingual search, reading progress, dark mode, and direct links to each source note. No package installation is required.
+El lector indexa Markdown al inicio y proporciona navegación, filtros, búsqueda de texto completo, progreso de lectura, modo oscuro y enlaces directos a cada nota fuente. No se requiere instalación de paquetes.
 
-## Use with Obsidian / Usa con Obsidian
+## Usar con obsidiana
 
-1. Clone or download the repository.
-2. In Obsidian, choose **Open folder as vault**.
-3. Select the repository root.
-4. Start from `docs/00-start/home.md`.
+1. Clona o descarga el repositorio.
+2. En Obsidian, elija **Abrir carpeta como bóveda**.
+3. Seleccione la raíz del repositorio.
+4. Comience desde `docs/00-start/home.md`.
 
-The vault uses plain Markdown, YAML frontmatter, folders, tags, and wiki links. The committed Obsidian settings are intentionally minimal and contain no personal workspace state.
+La bóveda utiliza Markdown simple, contenido frontal YAML, carpetas, etiquetas y enlaces wiki. Las configuraciones comprometidas de Obsidian son intencionalmente mínimas y no contienen ningún estado de espacio de trabajo personal.
 
-## Scope and safety / Ambito e sicurezza
+## Alcance y seguridad
 
-The material is vendor-neutral and based on broadly available testing knowledge. Examples use fictional, generic systems. Do not contribute confidential information, credentials, personal data, customer names, internal architecture, or proprietary procedures. This repository is educational material, not a substitute for a context-specific quality, legal, security, or compliance review.
+El material es independiente del proveedor y se basa en conocimientos de pruebas ampliamente disponibles. Los ejemplos utilizan sistemas genéricos ficticios. No aporte información confidencial, credenciales, datos personales, nombres de clientes, arquitectura interna o procedimientos de propiedad. Este repositorio es material educativo, no un sustituto de una revisión de calidad, legal, de seguridad o de cumplimiento específica del contexto.
 
-## Contributing
+## Contribuyendo
 
-Read [`CONTRIBUTING.md`](CONTRIBUTING.md). Run `npm run check` before opening a pull request.
+Lea [`CONTRIBUTING.md`](CONTRIBUTING.md). Ejecute `npm run check` antes de abrir una solicitud de extracción.
 
-## Support / Sostieni il progetto
+## Soporte
 
-If Quality Atlas helps your learning or onboarding, you can support its maintenance through [GitHub Sponsors](https://github.com/sponsors/mr-jonam). Donations are optional and do not influence the educational content.
+Si Quality Atlas le ayuda en su aprendizaje o incorporación, puede respaldar su mantenimiento a través de [GitHub Sponsors](https://github.com/sponsors/mr-jonam). Las donaciones son opcionales y no influyen en el contenido educativo.GitHub también muestra el botón **Patrocinador** usando [`.github/FUNDING.yml`](.github/FUNDING.yml).
 
-Se Quality Atlas è utile per apprendimento o onboarding, puoi sostenerne la manutenzione tramite [GitHub Sponsors](https://github.com/sponsors/mr-jonam). Le donazioni sono facoltative e non influenzano i contenuti educativi.
+## Licencia
 
-GitHub also displays the **Sponsor** button using [`.github/FUNDING.yml`](.github/FUNDING.yml).
+- Documentación y plantillas: [CC BY 4.0](LICENSES/CC-BY-4.0.txt).
+- Lector web, scripts y código de configuración: [MIT](LICENSES/MIT.txt).
 
-## License
+Consulte [`LICENSE`](LICENSE), [`NOTICE`](NOTICE) y [`LICENSE-DECISION.md`](LICENSE-DECISION.md) para conocer el alcance y la justificación.
 
-- Documentation and templates: [CC BY 4.0](LICENSES/CC-BY-4.0.txt).
-- Web reader, scripts, and configuration code: [MIT](LICENSES/MIT.txt).
+## Versiones lingüísticas
 
-See [`LICENSE`](LICENSE), [`NOTICE`](NOTICE), and [`LICENSE-DECISION.md`](LICENSE-DECISION.md) for scope and rationale.
+Elige la documentación completa en tu idioma:
+
+- [Main / Bilingual](https://github.com/mr-jonam/quality-atlas/tree/main)
+- [English](https://github.com/mr-jonam/quality-atlas/tree/lang/en)
+- [Italiano](https://github.com/mr-jonam/quality-atlas/tree/lang/it)
+- [Français](https://github.com/mr-jonam/quality-atlas/tree/lang/fr)
+- [Español](https://github.com/mr-jonam/quality-atlas/tree/lang/es)
+- [Deutsch](https://github.com/mr-jonam/quality-atlas/tree/lang/de)

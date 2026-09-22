@@ -1,63 +1,40 @@
 ---
-title: Quality Atlas Home
+title: Atlas de calidad
 level: all
 roles: [qa-analyst, qa-engineer, automation-engineer, test-lead, developer, product]
 tags: [qa, software-testing, onboarding, knowledge-transfer]
 updated: 2026-09-22
 ---
+# Atlas de calidad
 
-# Quality Atlas
+> Un mapa práctico de la calidad del software: aprenda el idioma, elija pruebas útiles, comunique evidencia y mejore el sistema que produce el producto.
 
-> A practical map of software quality: learn the language, choose useful tests, communicate evidence, and improve the system that produces the product.
 
-## English
+La calidad es una capacidad compartida del producto. Las pruebas aportan información sobre el riesgo; no prueba que un sistema no tenga defectos. Utilice esta bóveda como un mapa, no como un proceso rígido.
 
-Quality is a shared product capability. Testing contributes information about risk; it does not prove that a system has no defects. Use this vault as a map, not a rigid process.
+### Elige un punto de entrada
 
-### Choose an entry point
+- Nuevo en pruebas: [[learning-paths#Foundation route]]
+- Quieres la secuencia completa: [[qa-engineer-roadmap]]
+- Pasando a la automatización: [[learning-paths#Automation route]]
+- Coordinación de calidad: [[learning-paths#Test lead route]]
+- Calidad de construcción como desarrollador o socio de producto: [[role-map]]
+- Necesita una hoja de trabajo reutilizable: busque `plantillas/`
 
-- New to testing: [[learning-paths#Foundation route]]
-- Want the complete sequence: [[qa-engineer-roadmap]]
-- Moving into automation: [[learning-paths#Automation route]]
-- Coordinating quality: [[learning-paths#Test lead route]]
-- Building quality as a developer or product partner: [[role-map]]
-- Need a reusable worksheet: browse `templates/`
+### Mapa de conocimiento
 
-### Knowledge map
+1. **Fundamentos**: mentalidad, terminología, SDLC, diseño de pruebas, comunicación de defectos.
+2. **Intermedio**: riesgo, estrategia, pruebas de API y UI, automatización, canales de entrega, operaciones de prueba.
+3. **Avanzado**: arquitectura, rendimiento, seguridad, observabilidad, liderazgo.
+4. **Playbooks**: flujos de trabajo breves para actividades recurrentes de calidad.
+5. **Referencia**: glosario y recursos públicos autorizados.
 
-1. **Foundations**: mindset, terminology, SDLC, test design, defect communication.
-2. **Intermediate**: risk, strategy, API and UI testing, automation, delivery pipelines, test operations.
-3. **Advanced**: architecture, performance, security, observability, leadership.
-4. **Playbooks**: short workflows for recurring quality activities.
-5. **Reference**: glossary and authoritative public resources.
+## Principios
 
-## Italiano
+- Pruebe antes, pero también pruebe en producción de forma segura.
+- Prefiere la evidencia al teatro de confianza.
+- Automatizar controles repetibles, no curiosidades.
+- Optimice el tiempo de retroalimentación y la calidad de la señal.
+- Tratar la accesibilidad, la seguridad y la operatividad como calidad.
 
-La qualità è una capacità condivisa del prodotto. Il testing produce informazioni sul rischio; non dimostra l'assenza di difetti. Usa questo vault come mappa, non come processo rigido.
-
-### Scegli un punto di partenza
-
-- Prime esperienze nel testing: [[learning-paths#Percorso base]]
-- Percorso completo in sequenza: [[qa-engineer-roadmap]]
-- Passaggio all'automazione: [[learning-paths#Percorso automazione]]
-- Coordinamento della qualità: [[learning-paths#Percorso test lead]]
-- Qualità per sviluppo o prodotto: [[role-map]]
-- Serve un modello riutilizzabile: consulta `templates/`
-
-### Mappa della conoscenza
-
-1. **Fondamenti**: mentalità, terminologia, SDLC, progettazione dei test, comunicazione dei difetti.
-2. **Intermedio**: rischio, strategia, test API e UI, automazione, pipeline, test operations.
-3. **Avanzato**: architettura, performance, sicurezza, osservabilità, leadership.
-4. **Playbook**: flussi brevi per attività ricorrenti.
-5. **Riferimenti**: glossario e risorse pubbliche autorevoli.
-
-## Principles / Principi
-
-- Test earlier, but also test in production safely. / Testa prima, ma verifica in sicurezza anche in produzione.
-- Prefer evidence over confidence theater. / Preferisci evidenze alla sicurezza solo apparente.
-- Automate repeatable checks, not curiosity. / Automatizza i controlli ripetibili, non la curiosità.
-- Optimize feedback time and signal quality. / Ottimizza tempi di feedback e qualità del segnale.
-- Treat accessibility, security, and operability as quality. / Considera accessibilità, sicurezza e operabilità parte della qualità.
-
-Next: [[learning-paths]] or [[../10-foundations/qa-mindset]].
+Siguiente: [[learning-paths]] o [[../10-foundations/qa-mindset]].

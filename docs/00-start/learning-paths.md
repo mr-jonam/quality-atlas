@@ -1,18 +1,16 @@
 ---
-title: Learning Paths
+title: Rutas de aprendizaje
 level: all
 roles: [qa-analyst, qa-engineer, automation-engineer, test-lead, developer]
 tags: [learning-path, onboarding, career]
 updated: 2026-09-22
 ---
+# Rutas de aprendizaje
 
-# Learning Paths / Percorsi di apprendimento
 
-## English
+### Ruta de la Fundación
 
-### Foundation route
-
-Suggested outcome: explain what testing can reveal, design useful checks, run an exploratory session, and report a defect clearly.
+Resultado sugerido: explicar qué pueden revelar las pruebas, diseñar comprobaciones útiles, realizar una sesión exploratoria e informar claramente un defecto.
 
 1. [[../10-foundations/qa-mindset]]
 2. [[../10-foundations/testing-fundamentals]]
@@ -21,58 +19,34 @@ Suggested outcome: explain what testing can reveal, design useful checks, run an
 5. [[../10-foundations/defect-communication]]
 6. [[../40-playbooks/exploratory-session]]
 
-### Automation route
+### Ruta de automatización
 
-Suggested outcome: choose an appropriate automation layer, write maintainable checks, and integrate trustworthy feedback into delivery.
+Resultado sugerido: elegir una capa de automatización adecuada, redactar controles mantenibles e integrar comentarios confiables en la entrega.
 
-1. Complete the Foundation route.
+1. Completa la ruta de la Fundación.
 2. [[../20-intermediate/api-testing]]
 3. [[../20-intermediate/automation-engineering]]
 4. [[../20-intermediate/ci-cd-quality-gates]]
 5. [[../20-intermediate/test-operations]]
 6. [[../30-advanced/testability-architecture]]
 
-### Test lead route
+### Ruta del cable de prueba
 
-Suggested outcome: establish a risk-based strategy, make release evidence visible, and grow a learning system without becoming a quality bottleneck.
+Resultado sugerido: establecer una estrategia basada en riesgos, hacer visible la evidencia y hacer crecer un sistema de aprendizaje sin convertirse en un cuello de botella de calidad.
 
-1. Complete the Foundation route.
+1. Completa la ruta de la Fundación.
 2. [[../20-intermediate/risk-based-strategy]]
 3. [[../20-intermediate/non-functional-quality]]
 4. [[../30-advanced/metrics-observability]]
 5. [[../30-advanced/quality-leadership]]
 6. [[../40-playbooks/release-readiness]]
 
-### Complete QA engineer route
+### Ruta completa del ingeniero de control de calidad
 
-Use [[qa-engineer-roadmap]] to connect foundations, delivery models, functional and non-functional testing, automation, operations and quality leadership in one sequence.
+Utilice [[qa-engineer-roadmap]] para conectar bases, modelos de entrega, pruebas funcionales y no funcionales, automatización, operaciones y liderazgo de calidad en una secuencia.
 
-## Italiano
+## Bucle de estudio
 
-### Percorso base
-
-Risultato atteso: spiegare cosa può rivelare il testing, progettare controlli utili, condurre una sessione esplorativa e descrivere un difetto con chiarezza.
-
-Segui le sei note del percorso Foundation elencate sopra.
-
-### Percorso automazione
-
-Risultato atteso: scegliere il livello di automazione appropriato, scrivere controlli manutenibili e integrare feedback affidabili nel processo di delivery.
-
-Completa il percorso base, poi studia API testing, automation engineering, quality gate CI/CD e testabilità.
-
-### Percorso test lead
-
-Risultato atteso: definire una strategia basata sul rischio, rendere visibili le evidenze di rilascio e far crescere un sistema di apprendimento senza diventare un collo di bottiglia.
-
-Completa il percorso base, poi approfondisci strategia, qualità non funzionale, metriche, leadership e release readiness.
-
-### Percorso QA engineer completo
-
-Usa [[qa-engineer-roadmap]] per collegare fondamenti, modelli di delivery, test funzionali e non funzionali, automazione, operations e leadership della qualità.
-
-## Study loop / Ciclo di studio
-
-For every note: read, summarize in your own words, apply to a fictional feature, compare with the checklist, and record one open question.
+Para cada nota: lea, resuma con sus propias palabras, aplíquela a una característica ficticia, compárela con la lista de verificación y registre una pregunta abierta.
 
 Per ogni nota: leggi, riassumi con parole tue, applica a una funzionalità fittizia, confronta con la checklist e annota una domanda aperta.

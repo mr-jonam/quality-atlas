@@ -1,35 +1,25 @@
 ---
-title: Testability and Architecture
+title: Probabilidad y arquitectura
 level: advanced
 roles: [qa-engineer, automation-engineer, test-lead, developer]
 tags: [testability, architecture, observability, controllability]
 updated: 2026-09-21
 ---
+# Probabilidad y arquitectura
 
-# Testability and Architecture / Testabilità e architettura
 
-## English
+La capacidad de prueba es el grado en que un sistema respalda una investigación y evaluación eficientes. Es una propiedad arquitectónica, no sólo una preocupación de prueba.
 
-Testability is the degree to which a system supports efficient investigation and evaluation. It is an architectural property, not only a testing concern.
+### Palancas de diseño
 
-### Design levers
+- **Observabilidad**: registros, métricas, seguimientos, eventos e inspección de estado significativos.
+- **Controlabilidad**: entradas deterministas, relojes, indicadores de funciones, sustitución de dependencias y estado reiniciable.
+- **Descomposabilidad**: límites que permiten controles enfocados.
+- **Reproducibilidad**: configuración versionada, generadores de datos y condiciones capturadas.
+- **Comprensibilidad**: contratos explícitos, modelos y semántica de fallos.
 
-- **Observability**: meaningful logs, metrics, traces, events, and state inspection.
-- **Controllability**: deterministic inputs, clocks, feature flags, dependency substitution, and resettable state.
-- **Decomposability**: boundaries that allow focused checks.
-- **Reproducibility**: versioned configuration, data builders, and captured conditions.
-- **Understandability**: explicit contracts, models, and failure semantics.
+Evite agregar puertas traseras de producción inseguras para las pruebas. Las interfaces de diagnóstico necesitan controles de autenticación, autorización, auditoría y entorno.
 
-Avoid adding unsafe production backdoors for testing. Diagnostic interfaces need authentication, authorization, audit, and environment controls.
+### Mensajes de revisión de arquitectura
 
-### Architecture review prompts
-
-Can a failure be localized? Can time and randomness be controlled? Can dependencies fail predictably in a test environment? Can data be created and removed safely? Can a change be exposed progressively and rolled back? Can consumers verify compatibility before deployment?
-
-## Italiano
-
-La testabilità misura quanto un sistema supporti indagine e valutazione efficienti. È una proprietà architetturale, non solo un problema del testing.
-
-Le leve principali sono osservabilità, controllabilità, decomponibilità, riproducibilità e comprensibilità. Servono log, metriche e trace significativi, input e tempo controllabili, confini chiari, configurazioni versionate, data builder, contratti espliciti e semantica degli errori.
-
-Evita backdoor di produzione non sicure. Le interfacce diagnostiche richiedono autenticazione, autorizzazione, audit e controlli ambientali.
+¿Se puede localizar una falla? ¿Se pueden controlar el tiempo y la aleatoriedad? ¿Pueden las dependencias fallar de manera predecible en un entorno de prueba? ¿Se pueden crear y eliminar datos de forma segura? ¿Se puede exponer un cambio progresivamente y revertirlo? ¿Pueden los consumidores verificar la compatibilidad antes de la implementación?

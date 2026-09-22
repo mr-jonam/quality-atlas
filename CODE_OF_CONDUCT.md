@@ -1,5 +1,5 @@
-# Code of Conduct
+# Código de conducta
 
-Be respectful, specific, and constructive. Discuss ideas and evidence rather than people. Welcome questions from learners at every level. Avoid discriminatory, harassing, or exclusionary language.
+Sea respetuoso, específico y constructivo. Discuta ideas y evidencia en lugar de personas. Bienvenido a las preguntas de los estudiantes de todos los niveles. Evite el lenguaje discriminatorio, acosador o excluyente.
 
-Report conduct or security concerns privately through the repository owner's GitHub contact options. Do not disclose sensitive details in a public issue.
+Informe problemas de conducta o seguridad de forma privada a través de las opciones de contacto de GitHub del propietario del repositorio. No reveles detalles sensibles en un tema público.

@@ -1,32 +1,22 @@
 ---
-title: Quality Metrics and Observability
+title: Métricas de calidad y observabilidad
 level: advanced
 roles: [qa-engineer, test-lead, developer, product]
 tags: [metrics, observability, outcomes, dashboards]
 updated: 2026-09-21
 ---
+# Métricas de calidad y observabilidad
 
-# Quality Metrics and Observability / Metriche e osservabilità
 
-## English
+Una métrica es útil cuando respalda una decisión y tiene una interpretación conocida. Evite utilizar recuentos de actividad como sustitutos de la calidad.
 
-A metric is useful when it supports a decision and has a known interpretation. Avoid using activity counts as proxies for quality.
+### Evidencia equilibrada
 
-### Balanced evidence
+- **Resultados del producto**: éxito de la tarea, temas de soporte, barreras de accesibilidad, incidentes visibles para el usuario.
+- **Flujo de entrega**: tiempo de retroalimentación, cambio de patrones de falla, tiempo de recuperación, estado de la implementación.
+- **Sistema de prueba**: duración, tasa de escamas, rendimiento de fallas, tiempo de diagnóstico, edad de cuarentena.
+- **Riesgo**: escenarios de alto riesgo examinados, exposición no resuelta, estado de mitigación.
 
-- **Product outcomes**: task success, support themes, accessibility barriers, user-visible incidents.
-- **Delivery flow**: feedback time, change failure patterns, recovery time, deployment health.
-- **Test system**: duration, flake rate, failure yield, diagnostic time, quarantine age.
-- **Risk**: high-risk scenarios examined, unresolved exposure, mitigation status.
+El recuento de defectos depende de la complejidad del producto, el comportamiento de los informes, el esfuerzo de prueba, la clasificación y la cadencia de lanzamiento. No son una puntuación directa del desempeño individual o del equipo.
 
-Defect counts are shaped by product complexity, reporting behavior, test effort, classification, and release cadence. They are not a direct score of individual or team performance.
-
-Observability helps answer new questions from system outputs. Logs explain events, metrics summarize trends, and traces connect work across boundaries. Design correlation, privacy, retention, sampling, and alert ownership intentionally.
-
-## Italiano
-
-Una metrica è utile quando supporta una decisione e ha un'interpretazione nota. Evita di scambiare conteggi di attività per qualità.
-
-Bilancia outcome di prodotto, flusso di delivery, salute del sistema di test e rischi residui. I conteggi dei difetti dipendono da complessità, comportamento di segnalazione, sforzo di test, classificazione e cadenza; non sono un punteggio diretto delle persone.
-
-L'osservabilità permette di rispondere a nuove domande dagli output del sistema. I log spiegano eventi, le metriche riassumono trend e le trace collegano attività tra confini. Progetta correlazione, privacy, retention, sampling e ownership degli alert.
+La observabilidad ayuda a responder nuevas preguntas a partir de los resultados del sistema. Los registros explican eventos, las métricas resumen tendencias y los seguimientos conectan el trabajo a través de fronteras. Diseñe la correlación, la privacidad, la retención, el muestreo y la propiedad de alertas de forma intencionada.

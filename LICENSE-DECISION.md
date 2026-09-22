@@ -1,19 +1,19 @@
-# License decision
+# Decisión de licencia
 
-## Decision
+## Decisión
 
-- Documentation and templates: CC BY 4.0.
-- Web reader, scripts, CI, and container configuration: MIT.
+- Documentación y plantillas: CC BY 4.0.
+- Lector web, scripts, CI y configuración de contenedores: MIT.
 
-## Rationale
+## Justificación
 
-The project is intended for broad educational reuse and discovery. CC BY 4.0 keeps attribution explicit while allowing translation, adaptation, and commercial or non-commercial reuse. MIT makes the small software component easy to run, modify, and embed. Keeping the scopes separate avoids applying a software license to prose or a content license to executable code.
+El proyecto está destinado a una amplia reutilización y descubrimiento educativo. CC BY 4.0 mantiene la atribución explícita al tiempo que permite la traducción, adaptación y reutilización comercial o no comercial. El MIT hace que el pequeño componente de software sea fácil de ejecutar, modificar e integrar. Mantener los ámbitos separados evita aplicar una licencia de software a la prosa o una licencia de contenido al código ejecutable.
 
-## Review performed
+## Revisión realizada
 
-- No third-party source code, proprietary documentation, media, datasets, or client material is bundled.
-- External resources are linked and paraphrased; no substantial text is copied.
-- No contributor identity, personal data, signing key, or recovery secret is stored in the repository.
-- GitHub's platform terms permit public viewing and repository forking. A public repository is appropriate because discoverability and reuse are explicit goals.
+- No se incluye código fuente de terceros, documentación de propiedad, medios, conjuntos de datos o material del cliente.
+- Los recursos externos están vinculados y parafraseados; no se copia ningún texto sustancial.
+- En el repositorio no se almacena ninguna identidad del colaborador, datos personales, clave de firma o secreto de recuperación.
+- Los términos de la plataforma GitHub permiten la visualización pública y la bifurcación del repositorio. Un repositorio público es apropiado porque la capacidad de descubrimiento y la reutilización son objetivos explícitos.
 
-Future contributions must confirm that the contributor has the right to submit the material under the applicable license. Legal advice may be appropriate before materially changing the licensing model.
+Las contribuciones futuras deben confirmar que el colaborador tiene derecho a enviar el material bajo la licencia aplicable. Puede ser apropiado recibir asesoramiento legal antes de cambiar materialmente el modelo de concesión de licencias.

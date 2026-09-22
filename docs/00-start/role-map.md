@@ -1,39 +1,22 @@
 ---
-title: QA Role Map
+title: Mapa de roles de control de calidad
 level: all
 roles: [qa-analyst, qa-engineer, automation-engineer, test-lead, developer, product]
 tags: [roles, collaboration, skills]
 updated: 2026-09-21
 ---
+# Mapa de roles de control de calidad
 
-# QA Role Map / Mappa dei ruoli QA
 
-## English
+Los títulos varían. Céntrese en las capacidades y la colaboración en lugar de en los límites de propiedad.
 
-Titles vary. Focus on capabilities and collaboration rather than ownership boundaries.
-
-| Capability | Typical contribution | Useful evidence |
+| Capacidad | Contribución típica | Evidencias útiles |
 |---|---|---|
-| QA analyst | models behavior, risks, and user journeys | charters, examples, defect reports |
-| QA engineer | combines product investigation with technical checks | test harnesses, diagnostics, risk coverage |
-| Automation engineer | builds reliable feedback systems | maintainable suites, pipeline signal, tooling |
-| Test lead | aligns strategy, people, environments, and evidence | quality plan, risk view, readiness narrative |
-| Developer | prevents defects and improves testability | unit/component checks, logs, safe delivery |
-| Product partner | clarifies value, impact, and acceptance boundaries | examples, priorities, outcome metrics |
+| Analista de control de calidad | modela el comportamiento, los riesgos y los recorridos de los usuarios | cartas, ejemplos, informes de defectos |
+| Ingeniero de control de calidad | combina la investigación del producto con controles técnicos | arneses de prueba, diagnóstico, cobertura de riesgos |
+| Ingeniero de automatización | construye sistemas de retroalimentación confiables | suites mantenibles, señal de tubería, herramientas |
+| Cable de prueba | alinea estrategia, personas, entornos y evidencia | plan de calidad, visión de riesgos, narrativa de preparación |
+| Desarrollador | previene defectos y mejora la capacidad de prueba | comprobaciones de unidades/componentes, registros, entrega segura |
+| Socio de producto | aclara los límites de valor, impacto y aceptación | ejemplos, prioridades, métricas de resultados |
 
-Healthy teams share discovery, prevention, testing, and learning. A dedicated QA role adds depth and facilitation; it does not absorb all responsibility for quality.
-
-## Italiano
-
-I titoli cambiano tra organizzazioni. Concentrati su capacità e collaborazione, non su confini rigidi di ownership.
-
-| Capacità | Contributo tipico | Evidenze utili |
-|---|---|---|
-| QA analyst | modella comportamenti, rischi e percorsi utente | charter, esempi, defect report |
-| QA engineer | unisce indagine di prodotto e controlli tecnici | test harness, diagnostica, copertura dei rischi |
-| Automation engineer | costruisce sistemi di feedback affidabili | suite manutenibili, segnale di pipeline, tooling |
-| Test lead | allinea strategia, persone, ambienti ed evidenze | piano qualità, vista rischi, readiness |
-| Developer | previene difetti e migliora la testabilità | test unitari/component, log, delivery sicuro |
-| Product partner | chiarisce valore, impatto e criteri di accettazione | esempi, priorità, metriche di risultato |
-
-Nei team sani discovery, prevenzione, test e apprendimento sono condivisi. Un ruolo QA dedicato aggiunge profondità e facilitazione; non assorbe tutta la responsabilità della qualità.
+Los equipos saludables comparten descubrimiento, prevención, pruebas y aprendizaje. Una función de control de calidad dedicada añade profundidad y facilitación; no absorbe toda la responsabilidad por la calidad.

@@ -1,40 +1,25 @@
 ---
-title: SDLC and Testing Models
+title: SDLC y modelos de prueba
 level: foundation
 roles: [qa-analyst, qa-engineer, automation-engineer, test-lead, developer, product]
 tags: [sdlc, agile, verification, validation, testing-approaches]
 updated: 2026-09-22
 ---
+# SDLC y modelos de prueba
 
-# SDLC and Testing Models / SDLC e modelli di testing
 
-## English
+Un modelo de entrega determina cuándo está disponible la información y qué tan costosa es la retroalimentación. Las pruebas se adaptan a ese modelo; no es una fase final agregada después de la implementación.
 
-A delivery model shapes when information becomes available and how expensive feedback is. Testing adapts to that model; it is not a final phase added after implementation.
+### Modelos comunes
 
-### Common models
+- Los enfoques **secuenciales** planifican distintas fases. Se benefician de revisiones tempranas, trazabilidad explícita y ensayos de integración realistas.
+- El pensamiento **modelo V** combina actividades de desarrollo con las correspondientes actividades de verificación o validación.
+- Los enfoques **iterativos e incrementales** ofrecen porciones, aprenden de los comentarios y revisan los planes.
+- **Métodos ágiles** enfatizan los lotes pequeños, la colaboración y la adaptación. Scrum, Kanban y XP son modelos operativos diferentes, no técnicas de prueba.
+- **La entrega continua** mantiene el software disponible a través de la automatización, la observabilidad y la gestión disciplinada del cambio.
 
-- **Sequential** approaches plan distinct phases. They benefit from early reviews, explicit traceability and realistic integration rehearsals.
-- **V-model** thinking pairs development activities with corresponding verification or validation activities.
-- **Iterative and incremental** approaches deliver slices, learn from feedback and revise plans.
-- **Agile methods** emphasize small batches, collaboration and adaptation. Scrum, Kanban and XP are different operating models, not testing techniques.
-- **Continuous delivery** keeps software releasable through automation, observability and disciplined change management.
+La verificación pregunta si los productos de trabajo cumplen con las condiciones específicas. La validación pregunta si el producto resultante sirve a los usuarios y al contexto previstos. Ambos requieren juicio; ninguno se limita a ejecutar pruebas.
 
-Verification asks whether work products meet specified conditions. Validation asks whether the resulting product serves its intended users and context. Both require judgment; neither is limited to executing tests.
+Elija técnicas de caja negra cuando el comportamiento y las interfaces sean el foco, técnicas de caja blanca cuando la estructura sea visible y técnicas basadas en la experiencia cuando los modelos estén incompletos. Combínalos cuando el riesgo lo justifique.
 
-Choose black-box techniques when behavior and interfaces are the focus, white-box techniques when structure is visible, and experience-based techniques when models are incomplete. Combine them when risk justifies it.
-
-## Italiano
-
-Il modello di delivery determina quando le informazioni diventano disponibili e quanto costa il feedback. Il testing si adatta a quel modello; non è una fase finale aggiunta dopo l'implementazione.
-
-- Gli approcci **sequenziali** separano le fasi e richiedono review precoci, tracciabilità e prove realistiche di integrazione.
-- Il **modello V** collega le attività di sviluppo alle corrispondenti attività di verifica o validazione.
-- Gli approcci **iterativi e incrementali** consegnano porzioni, apprendono dal feedback e aggiornano i piani.
-- I metodi **agili** favoriscono piccoli batch, collaborazione e adattamento. Scrum, Kanban e XP sono modelli operativi, non tecniche di test.
-- La **continuous delivery** mantiene il software rilasciabile tramite automazione, osservabilità e gestione disciplinata del cambiamento.
-
-La verifica chiede se gli artefatti rispettano le condizioni specificate. La validazione chiede se il prodotto serve utenti e contesto previsti. Usa tecniche black-box per comportamento e interfacce, white-box quando la struttura è visibile ed experience-based quando i modelli sono incompleti.
-
-Related: [[testing-fundamentals]], [[test-design-techniques]], [[../20-intermediate/ci-cd-quality-gates]].
-
+Relacionado: [[testing-fundamentals]], [[test-design-techniques]], [[../20-intermediate/ci-cd-quality-gates]].

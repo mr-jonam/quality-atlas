@@ -1,34 +1,24 @@
 ---
-title: Performance and Reliability Testing
+title: Pruebas de rendimiento y confiabilidad
 level: advanced
 roles: [qa-engineer, automation-engineer, test-lead, developer]
 tags: [performance-testing, reliability, resilience, load-testing]
 updated: 2026-09-21
 ---
+# Pruebas de rendimiento y confiabilidad
 
-# Performance and Reliability Testing / Test di performance e affidabilità
 
-## English
+Comience con un modelo de carga de trabajo basado en recorridos esperados, patrones de llegada, tamaños de datos, simultaneidad, geografía y dependencias. Un recuento de tráfico generado por una herramienta no es un modelo de carga de trabajo.
 
-Begin with a workload model based on expected journeys, arrival patterns, data sizes, concurrency, geography, and dependencies. A tool-generated traffic count is not a workload model.
+### Tipos de experimentos de rendimiento
 
-### Performance experiment types
+- línea de base y punto de referencia para comparación;
+- carga para la demanda esperada;
+- estrés para localizar límites y modos de falla;
+- pico para cambios repentinos;
+- resistencia a fugas, saturación y degradación;
+- capacidad de altura de planificación.
 
-- baseline and benchmark for comparison;
-- load for expected demand;
-- stress to locate limits and failure modes;
-- spike for sudden change;
-- endurance for leaks, saturation, and degradation;
-- capacity for planning headroom.
+Mida las distribuciones de latencia, el rendimiento, los errores, la saturación, las colas, el uso de recursos y el comportamiento posterior. El calentamiento, los datos de prueba, el estado de la caché, la red y la sobrecarga de observabilidad pueden cambiar los resultados. Repita experimentos controlados y conserve la configuración con los resultados.
 
-Measure latency distributions, throughput, errors, saturation, queues, resource use, and downstream behavior. Warm-up, test data, cache state, network, and observability overhead can change results. Repeat controlled experiments and retain configuration with results.
-
-Reliability testing also examines dependency failure, retry storms, partial degradation, failover, recovery, data integrity, and operator response. Chaos experiments require a hypothesis, blast-radius controls, observability, abort conditions, and informed approval.
-
-## Italiano
-
-Parti da un modello di carico basato su percorsi attesi, arrivi, dimensioni dei dati, concorrenza, geografia e dipendenze. Un numero di richieste generato da uno strumento non è un modello.
-
-Usa esperimenti di baseline, carico, stress, spike, endurance e capacità secondo l'obiettivo. Misura distribuzioni di latenza, throughput, errori, saturazione, code, risorse e dipendenze. Conserva configurazione e condizioni con i risultati.
-
-L'affidabilità include guasti di dipendenze, tempeste di retry, degrado parziale, failover, recupero, integrità dei dati e risposta operativa. Gli esperimenti di chaos richiedono ipotesi, blast radius limitato, osservabilità, condizioni di arresto e approvazione informata.
+Las pruebas de confiabilidad también examinan fallas de dependencia, tormentas de reintentos, degradación parcial, conmutación por error, recuperación, integridad de los datos y respuesta del operador. Los experimentos del caos requieren una hipótesis, controles del radio de explosión, observabilidad, condiciones de aborto y aprobación informada.

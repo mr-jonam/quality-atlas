@@ -1,32 +1,31 @@
 ---
-title: Release Readiness Template
+title: Preparación para el lanzamiento
 level: intermediate
 roles: [test-lead, qa-engineer, developer, product]
 tags: [template, release, readiness]
 updated: 2026-09-21
 ---
+# Preparación para el lanzamiento
 
-# Release readiness / Readiness al rilascio
+- Lanzamiento/cambio:
+- Momento de decisión:
+- Titular(es) de la decisión:
+- Resultado previsto:
 
-- Release/change:
-- Decision time:
-- Decision owner(s):
-- Intended outcome:
+## Evidencia
 
-## Evidence
+- Alcance y superficies modificadas:
+- Mayores riesgos y coberturas:
+- Resultados de pruebas y revisiones relevantes:
+- Defectos abiertos e impacto residual:
+- Estado de seguridad, privacidad, accesibilidad y cumplimiento:
+- Implementación, migración, compatibilidad y reversión:
+- Seguimiento, alertas, soporte y ruta de incidencias:
 
-- Scope and changed surfaces:
-- Highest risks and coverage:
-- Relevant test and review results:
-- Open defects and residual impact:
-- Security, privacy, accessibility, and compliance status:
-- Deployment, migration, compatibility, and rollback:
-- Monitoring, alerts, support, and incident path:
+## Decisión
 
-## Decision
+- [] Continuar
+- [ ] Proceder con condiciones mensurables
+- [] No continuar todavía
 
-- [ ] Proceed
-- [ ] Proceed with measurable conditions
-- [ ] Do not proceed yet
-
-Conditions, assumptions, owners, and review time:
+Condiciones, supuestos, propietarios y tiempo de revisión:
