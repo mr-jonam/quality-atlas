@@ -47,6 +47,18 @@ The material is vendor-neutral and based on broadly available testing knowledge.
 
 Read [`CONTRIBUTING.md`](CONTRIBUTING.md). Run `npm run check` before opening a pull request.
 
+## Language editions / Edizioni linguistiche
+
+The `main` branch is bilingual (English and Italian). Complete monolingual editions are available on dedicated branches:
+
+Il branch `main` è bilingue (inglese e italiano). Le edizioni monolingua complete sono disponibili su branch dedicati:
+
+- [English](https://github.com/mr-jonam/quality-atlas/tree/lang/en)
+- [Italiano](https://github.com/mr-jonam/quality-atlas/tree/lang/it)
+- [Français](https://github.com/mr-jonam/quality-atlas/tree/lang/fr)
+- [Español](https://github.com/mr-jonam/quality-atlas/tree/lang/es)
+- [Deutsch](https://github.com/mr-jonam/quality-atlas/tree/lang/de)
+
 ## Support / Sostieni il progetto
 
 If Quality Atlas helps your learning or onboarding, you can support its maintenance through [GitHub Sponsors](https://github.com/sponsors/mr-jonam). Donations are optional and do not influence the educational content.
