@@ -1,35 +1,23 @@
 ---
-title: API and Contract Testing
+title: Tests API et contrats
 level: intermediate
 roles: [qa-engineer, automation-engineer, developer]
 tags: [api-testing, contracts, integration, data]
 updated: 2026-09-21
 ---
+# Tests API et contrats
 
-# API and Contract Testing / Test di API e contratti
 
-## English
+Les tests API fournissent des preuves rapides et ciblées aux limites du service. Traitez le contrat comme un comportement, pas seulement comme un schéma.
 
-API tests provide fast, focused evidence at service boundaries. Treat the contract as behavior, not only a schema.
+### Examiner
 
-### Examine
+- méthodes, chemins, codes d'état, en-têtes et types de médias ;
+- champs obligatoires, facultatifs, nullables, par défaut et inconnus ;
+- authentification, autorisation, location et limites tarifaires ;
+- demandes valides, invalides, limites, en double et dans le désordre ;
+- pagination, filtrage, tri, idempotence, délais d'attente et tentatives ;
+- forme d'erreur, identifiants de corrélation et exposition aux données sensibles ;
+- compatibilité ascendante et ascendante pour les consommateurs.
 
-- methods, paths, status codes, headers, and media types;
-- required, optional, nullable, defaulted, and unknown fields;
-- authentication, authorization, tenancy, and rate limits;
-- valid, invalid, boundary, duplicate, and out-of-order requests;
-- pagination, filtering, sorting, idempotency, timeouts, and retries;
-- error shape, correlation identifiers, and sensitive-data exposure;
-- backward and forward compatibility for consumers.
-
-Contract tests check assumptions between a provider and its consumers. They complement, but do not replace, integration and end-to-end tests. Use service virtualization when a dependency is costly or unstable, while retaining a smaller number of real integration checks to detect drift.
-
-## Italiano
-
-I test API producono feedback rapido e mirato ai confini dei servizi. Considera il contratto come comportamento, non solo come schema.
-
-Verifica metodi, path, status, header, tipi media, campi obbligatori o opzionali, autenticazione, autorizzazione, limiti, richieste non valide, paginazione, idempotenza, timeout, retry, forma degli errori e compatibilità.
-
-I contract test verificano le assunzioni tra provider e consumer. Integrano, ma non sostituiscono, i test di integrazione ed end-to-end. La virtualizzazione riduce costo e instabilità; mantieni alcuni controlli reali per rilevare deriva tra simulazione e dipendenza.
-
-Checklist: `templates/api-checklist.md`.
+Les tests contractuels vérifient les hypothèses entre un fournisseur et ses consommateurs. Ils complètent, mais ne remplacent pas, les tests d'intégration et de bout en bout. Utilisez la virtualisation des services lorsqu'une dépendance est coûteuse ou instable, tout en conservant un nombre réduit de contrôles d'intégration réels pour détecter les dérives.

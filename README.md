@@ -1,63 +1,69 @@
-# Quality Atlas
+# Atlas de qualité
 
-Quality Atlas is an open, bilingual knowledge base for software quality assurance and testing. It supports onboarding, knowledge transfer, self-study, interview preparation, and team learning from foundation to advanced level.
+Quality Atlas est une base de connaissances ouverte en français pour l'assurance qualité et les tests de logiciels. Elle prend en charge l'intégration, le transfert de connaissances, l'auto-apprentissage, la préparation aux entretiens et l'apprentissage en équipe du niveau élémentaire au niveau avancé.
 
-Quality Atlas è una knowledge base aperta e bilingue dedicata alla quality assurance e al software testing. Supporta onboarding, knowledge transfer, studio autonomo, preparazione ai colloqui e apprendimento di team, dal livello base a quello avanzato.
 
-## Start here / Inizia qui
+## Commencez ici
 
-- Open [`docs/00-start/home.md`](docs/00-start/home.md) in GitHub or Obsidian.
-- Use the independent [`QA Engineer roadmap`](docs/00-start/qa-engineer-roadmap.md) for a sequenced path inspired by common public curricula.
-- Follow a role-based route in [`docs/00-start/learning-paths.md`](docs/00-start/learning-paths.md).
-- Copy and adapt the worksheets in [`templates/`](templates/).
-- Run the web reader with Node.js or Docker.
+- Ouvrez [`docs/00-start/home.md`](docs/00-start/home.md) dans GitHub ou Obsidian.
+- Utilisez la feuille de route indépendante [`QA Engineer`](docs/00-start/qa-engineer-roadmap.md) pour un parcours séquencé inspiré des programmes publics communs.
+- Suivez un itinéraire basé sur les rôles dans [`docs/00-start/learning-paths.md`](docs/00-start/learning-paths.md).
+- Copiez et adaptez les feuilles de travail dans [`templates/`](templates/).
+- Exécutez le lecteur Web avec Node.js ou Docker.
 
-## Run the web reader / Avvia il sito
+## Exécutez le lecteur Web
 
-Node.js 20 or newer:
-
-```bash
-npm run dev
-```
-
-Then open `http://localhost:4173`.
-
-Docker:
+Node.js 20 ou version ultérieure :
 
 ```bash
-docker compose up --build
+npm exécuter le développement
 ```
 
-The reader indexes Markdown at startup and provides navigation, filters, bilingual search, reading progress, dark mode, and direct links to each source note. No package installation is required.
+Ensuite, ouvrez `http://localhost:4173`.
 
-## Use with Obsidian / Usa con Obsidian
+Docker :
 
-1. Clone or download the repository.
-2. In Obsidian, choose **Open folder as vault**.
-3. Select the repository root.
-4. Start from `docs/00-start/home.md`.
+```bash
+docker compose --build
+```
 
-The vault uses plain Markdown, YAML frontmatter, folders, tags, and wiki links. The committed Obsidian settings are intentionally minimal and contain no personal workspace state.
+Le lecteur indexe Markdown au démarrage et propose une navigation, des filtres, une recherche plein texte, une progression de la lecture, un mode sombre et des liens directs vers chaque note source. Aucune installation de package n’est requise.
 
-## Scope and safety / Ambito e sicurezza
+## Utiliser avec l'obsidienne
 
-The material is vendor-neutral and based on broadly available testing knowledge. Examples use fictional, generic systems. Do not contribute confidential information, credentials, personal data, customer names, internal architecture, or proprietary procedures. This repository is educational material, not a substitute for a context-specific quality, legal, security, or compliance review.
+1. Clonez ou téléchargez le référentiel.
+2. Dans Obsidian, choisissez **Ouvrir le dossier en tant que coffre-fort**.
+3. Sélectionnez la racine du référentiel.
+4. Commencez à partir de `docs/00-start/home.md`.
 
-## Contributing
+Le coffre-fort utilise du Markdown simple, du frontmatter YAML, des dossiers, des balises et des liens wiki. Les paramètres Obsidian validés sont intentionnellement minimaux et ne contiennent aucun état d'espace de travail personnel.
 
-Read [`CONTRIBUTING.md`](CONTRIBUTING.md). Run `npm run check` before opening a pull request.
+## Portée et sécurité
 
-## Support / Sostieni il progetto
+Le matériel est indépendant du fournisseur et basé sur des connaissances en matière de tests largement disponibles. Les exemples utilisent des systèmes fictifs et génériques. Ne fournissez pas d’informations confidentielles, d’informations d’identification, de données personnelles, de noms de clients, d’architecture interne ou de procédures exclusives. Ce référentiel est un matériel pédagogique et ne remplace pas un examen de qualité, juridique, de sécurité ou de conformité spécifique au contexte.
 
-If Quality Atlas helps your learning or onboarding, you can support its maintenance through [GitHub Sponsors](https://github.com/sponsors/mr-jonam). Donations are optional and do not influence the educational content.
+## Contribuer
 
-Se Quality Atlas è utile per apprendimento o onboarding, puoi sostenerne la manutenzione tramite [GitHub Sponsors](https://github.com/sponsors/mr-jonam). Le donazioni sono facoltative e non influenzano i contenuti educativi.
+Lisez [`CONTRIBUTING.md`](CONTRIBUTING.md). Exécutez `npm run check` avant d'ouvrir une pull request.
 
-GitHub also displays the **Sponsor** button using [`.github/FUNDING.yml`](.github/FUNDING.yml).
+## Assistance
 
-## License
+Si Quality Atlas facilite votre apprentissage ou votre intégration, vous pouvez prendre en charge sa maintenance via [GitHub Sponsors](https://github.com/sponsors/mr-jonam). Les dons sont facultatifs et n’influencent pas le contenu pédagogique.GitHub affiche également le bouton **Parrainer** en utilisant [`.github/FUNDING.yml`](.github/FUNDING.yml).
 
-- Documentation and templates: [CC BY 4.0](LICENSES/CC-BY-4.0.txt).
-- Web reader, scripts, and configuration code: [MIT](LICENSES/MIT.txt).
+## Licence
 
-See [`LICENSE`](LICENSE), [`NOTICE`](NOTICE), and [`LICENSE-DECISION.md`](LICENSE-DECISION.md) for scope and rationale.
+- Documentation et modèles : [CC BY 4.0](LICENSES/CC-BY-4.0.txt).
+- Lecteur Web, scripts et code de configuration : [MIT](LICENSES/MIT.txt).
+
+Voir [`LICENSE`](LICENSE), [`NOTICE`](NOTICE) et [`LICENSE-DECISION.md`](LICENSE-DECISION.md) pour connaître la portée et la justification.
+
+## Versions linguistiques
+
+Choisissez la documentation complète dans votre langue :
+
+- [Main / Bilingual](https://github.com/mr-jonam/quality-atlas/tree/main)
+- [English](https://github.com/mr-jonam/quality-atlas/tree/lang/en)
+- [Italiano](https://github.com/mr-jonam/quality-atlas/tree/lang/it)
+- [Français](https://github.com/mr-jonam/quality-atlas/tree/lang/fr)
+- [Español](https://github.com/mr-jonam/quality-atlas/tree/lang/es)
+- [Deutsch](https://github.com/mr-jonam/quality-atlas/tree/lang/de)

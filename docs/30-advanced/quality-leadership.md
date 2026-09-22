@@ -1,37 +1,25 @@
 ---
-title: Quality Leadership and Knowledge Transfer
+title: Leadership qualité et transfert de connaissances
 level: advanced
 roles: [test-lead, qa-engineer, product, developer]
 tags: [leadership, coaching, knowledge-transfer, governance]
 updated: 2026-09-21
 ---
+# Leadership qualité et transfert de connaissances
 
-# Quality Leadership and Knowledge Transfer / Leadership e KT
 
-## English
+Un leadership de qualité crée de la clarté, des capacités et des boucles de rétroaction. Il ne centralise pas toutes les décisions dans une fonction d’assurance qualité.
 
-Quality leadership creates clarity, capability, and feedback loops. It does not centralize every decision in a QA function.
+### Pratiques opérationnelles
 
-### Operating practices
+- Animer des ateliers sur les risques avant que les solutions ne durcissent.
+- Rendre les critères de qualité observables et partagés.
+- Associez les rôles sur des exemples, des tests, des incidents et l'architecture.
+- Maintenez des cartes légères des parcours critiques, des dépendances et des propriétaires.
+- Examinez les défauts échappés pour améliorer le système, sans blâmer.
+- Financer la maintenance des environnements, des données de test, des outils et de l'observabilité.
+- Utiliser les communautés de pratiques pour diffuser les techniques sans imposer un seul outil.
 
-- Facilitate risk workshops before solutions harden.
-- Make quality criteria observable and shared.
-- Pair across roles on examples, tests, incidents, and architecture.
-- Maintain lightweight maps of critical journeys, dependencies, and owners.
-- Review escaped defects for system improvements, not blame.
-- Fund maintenance of environments, test data, tooling, and observability.
-- Use communities of practice to spread techniques without imposing one tool.
+### Transfert de connaissances
 
-### Knowledge transfer
-
-A KT plan should define audience, outcomes, prerequisites, source material, hands-on exercises, feedback, and ownership after the session. Prefer recorded decisions and runnable examples over a long presentation. Verify transfer by asking the learner to perform and explain a realistic task.
-
-## Italiano
-
-La leadership della qualità crea chiarezza, capacità e cicli di feedback. Non centralizza ogni decisione nella funzione QA.
-
-Facilita workshop sui rischi, condividi criteri osservabili, usa pairing tra ruoli, mantieni mappe leggere di percorsi e dipendenze, studia i difetti senza colpevolizzare e finanzia manutenzione di ambienti, dati, tooling e osservabilità.
-
-Un piano KT definisce pubblico, risultati, prerequisiti, fonti, esercizi pratici, feedback e ownership successiva. Preferisci decisioni registrate ed esempi eseguibili a lunghe presentazioni. Verifica il trasferimento chiedendo al partecipante di svolgere e spiegare un compito realistico.
-
-Template: `templates/knowledge-transfer-plan.md`.
+Un plan d'AC doit définir le public, les résultats, les prérequis, le matériel source, les exercices pratiques, les commentaires et l'appropriation après la session. Préférez les décisions enregistrées et les exemples exécutables à une longue présentation. Vérifiez le transfert en demandant à l'apprenant d'effectuer et d'expliquer une tâche réaliste.

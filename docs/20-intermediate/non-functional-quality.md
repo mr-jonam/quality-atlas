@@ -1,35 +1,23 @@
 ---
-title: Non-Functional Quality
+title: Qualité non fonctionnelle
 level: intermediate
 roles: [qa-analyst, qa-engineer, test-lead, developer, product]
 tags: [quality-attributes, accessibility, security, performance, reliability]
 updated: 2026-09-21
 ---
+# Qualité non fonctionnelle
 
-# Non-Functional Quality / Qualità non funzionale
 
-## English
+Les attributs de qualité décrivent comment un système se comporte dans des conditions pertinentes. Rendez-les concrets avec des scénarios : relance, environnement, réponse attendue et mesure.
 
-Quality attributes describe how a system behaves under relevant conditions. Make them concrete with scenarios: stimulus, environment, expected response, and measure.
+Les attributs communs incluent l'efficacité des performances, la fiabilité, la disponibilité, la résilience, la sécurité, la confidentialité, l'accessibilité, la convivialité, la compatibilité, la maintenabilité, la portabilité et l'opérabilité.
 
-Common attributes include performance efficiency, reliability, availability, resilience, security, privacy, accessibility, usability, compatibility, maintainability, portability, and operability.
+Exemple : « Lorsque le trafic atteint le profil de pointe convenu, 95 % des demandes de recherche représentatives sont complétées dans le cadre du produit cible et le taux d'erreur reste inférieur au seuil convenu. » Les chiffres doivent provenir des produits et des besoins opérationnels, et non d'une référence générique.
 
-Example: "When traffic reaches the agreed peak profile, 95% of representative search requests complete within the product target and the error rate stays below the agreed threshold." The numbers must come from product and operational needs, not from a generic benchmark.
+### Questions transversales
 
-### Cross-cutting questions
-
-- What is the expected load and failure model?
-- Which users or environments are most constrained?
-- What data needs protection and retention controls?
-- How will degradation be detected and communicated?
-- What recovery objective and fallback behavior are acceptable?
-
-## Italiano
-
-Gli attributi di qualità descrivono come si comporta un sistema in condizioni rilevanti. Rendili concreti con scenari: stimolo, ambiente, risposta attesa e misura.
-
-Tra gli attributi comuni: efficienza prestazionale, affidabilità, disponibilità, resilienza, sicurezza, privacy, accessibilità, usabilità, compatibilità, manutenibilità, portabilità e operabilità.
-
-Le soglie devono derivare dai bisogni del prodotto e dell'esercizio, non da benchmark generici. Chiarisci carico e modello di guasto, utenti più vincolati, dati da proteggere, rilevazione del degrado, obiettivi di recupero e fallback accettabili.
-
-Deep dives: [[../30-advanced/performance-reliability]], [[../30-advanced/security-accessibility]].
+- Quel est le modèle de charge et de défaillance attendu ?
+- Quels utilisateurs ou environnements sont les plus contraints ?
+- Quelles données nécessitent une protection et des contrôles de conservation ?
+- Comment la dégradation sera-t-elle détectée et communiquée ?
+- Quels objectifs de récupération et comportements de repli sont acceptables ?

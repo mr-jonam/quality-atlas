@@ -1,31 +1,28 @@
 ---
-title: QA Glossary
+title: Glossaire QA
 level: all
 roles: [qa-analyst, qa-engineer, automation-engineer, test-lead, developer, product]
 tags: [glossary, terminology, reference]
 updated: 2026-09-21
 ---
+# Glossaire QA
 
-# QA Glossary / Glossario QA
+| Terme | Définition |
+|---|---|
+| Critère d'acceptation | Condition testable associée à un besoin ou à un élément. |
+| Vérifier | Évaluation par rapport à une attente explicite. |
+| Couverture | Degré selon lequel un modèle, un risque ou un élément choisi a été examiné. |
+| Défaut | Défaut qui peut empêcher un produit de répondre à un besoin ou à une attente. |
+| Erreur | Action humaine qui produit un résultat incorrect. |
+| Échec | Déviation observable pendant le fonctionnement. |
+| Test feuilleté | Test automatisé avec des résultats incohérents sans changement de produit pertinent. |
+| Oracle | Source utilisée pour reconnaître un résultat attendu ou problématique. |
+| Risque qualité | Possibilité d'un problème lié à la qualité et ses conséquences. |
+| Régression | Impact négatif involontaire causé par un changement. |
+| Gravité | Degré d'impact causé par un problème. |
+| Priorité | Urgence relative assignée au travail. |
+| Base de test | Informations utilisées pour dériver des tests, telles que les besoins, les risques, le code ou les modèles. |
+| Charte d'essais | Mission et limites d'une session de tests exploratoires. |
+| Testabilité | Degré auquel un système prend en charge une évaluation efficace. |
 
-| Term | English | Italiano |
-|---|---|---|
-| Acceptance criterion | Testable condition associated with a need or item. | Condizione verificabile associata a un bisogno o elemento. |
-| Check | Evaluation against an explicit expectation. | Valutazione rispetto a un'aspettativa esplicita. |
-| Coverage | Degree to which a chosen model, risk, or element has been examined. | Grado con cui un modello, rischio o elemento è stato esaminato. |
-| Defect | Flaw that may cause a product to fail to meet a need or expectation. | Imperfezione che può impedire al prodotto di soddisfare un bisogno. |
-| Error | Human action that produces an incorrect result. | Azione umana che produce un risultato errato. |
-| Failure | Observable deviation during operation. | Deviazione osservabile durante l'esecuzione. |
-| Flaky test | Automated test with inconsistent outcomes without a relevant product change. | Test automatico con esiti incoerenti senza modifica rilevante del prodotto. |
-| Oracle | Source used to recognize an expected or problematic result. | Fonte usata per riconoscere un risultato atteso o problematico. |
-| Quality risk | Possibility of a quality-related problem and its consequences. | Possibilità di un problema di qualità e delle sue conseguenze. |
-| Regression | Unintended negative impact caused by a change. | Impatto negativo involontario causato da una modifica. |
-| Severity | Degree of impact caused by a problem. | Livello di impatto causato da un problema. |
-| Priority | Relative urgency assigned to work. | Urgenza relativa assegnata a un'attività. |
-| Test basis | Information used to derive tests, such as needs, risks, code, or models. | Informazioni da cui derivare test, come bisogni, rischi, codice o modelli. |
-| Test charter | Mission and boundaries for an exploratory testing session. | Missione e confini di una sessione esplorativa. |
-| Testability | Degree to which a system supports efficient evaluation. | Grado con cui un sistema supporta una valutazione efficiente. |
-
-Terms may have more formal definitions in standards and certification syllabi. Use the vocabulary agreed by your context and make ambiguity explicit.
-
-I termini possono avere definizioni più formali in standard e syllabus. Usa il vocabolario concordato nel contesto e rendi esplicite le ambiguità.
+Les termes peuvent avoir des définitions plus formelles dans les normes et les programmes de certification. Utilisez le vocabulaire adapté à votre contexte et explicitez l’ambiguïté.

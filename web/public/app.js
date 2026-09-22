@@ -1,5 +1,7 @@
 // SPDX-License-Identifier: MIT
 const state = { notes: [], filtered: [], active: null };
+const groupLabels = {"start":"démarrage","foundations":"fondamentaux","intermediate":"intermédiaire","advanced":"avancé","playbooks":"guides pratiques","reference":"références","templates":"modèles"};
+const groupLabel = (value) => groupLabels[value] || value;
 const elements = {
   content: document.querySelector("#content"),
   navigation: document.querySelector("#navigation"),
@@ -158,7 +160,7 @@ function applyFilters() {
 function renderNavigation() {
   elements.count.textContent = `${state.filtered.length} of ${state.notes.length} notes`;
   if (!state.filtered.length) {
-    elements.navigation.innerHTML = '<div class="empty-state"><strong>No matching notes</strong><span>Try fewer words or clear a filter.</span><button type="button" id="clear-filters">Clear filters</button></div>';
+    elements.navigation.innerHTML = '<div class="empty-state"><strong>Aucune note correspondante</strong><span>Essayez moins de mots ou supprimez un filtre.</span><button type="button" id="clear-filters">Effacer les filtres</button></div>';
     document.querySelector("#clear-filters").addEventListener("click", () => {
       elements.search.value = ""; elements.level.value = ""; elements.role.value = ""; applyFilters();
     });
@@ -168,7 +170,7 @@ function renderNavigation() {
   for (const note of state.filtered) groups.set(note.group, [...(groups.get(note.group) || []), note]);
   elements.navigation.innerHTML = [...groups.entries()].map(([group, notes]) => `
     <section class="nav-group">
-      <h2>${escapeHtml(group)}</h2>
+      <h2>${escapeHtml(groupLabel(group))}</h2>
       ${notes.map((note) => `<a href="#/doc/${note.id}" data-id="${note.id}" class="${note.id === state.active?.id ? "active" : ""}"><span>${escapeHtml(note.title)}</span><small>${escapeHtml(note.level)}</small></a>`).join("")}
     </section>`).join("");
 }
@@ -178,13 +180,13 @@ function showNote(id) {
   if (!note) return;
   state.active = note;
   document.title = `${note.title} | Quality Atlas`;
-  elements.crumb.textContent = `${note.group} / ${note.title}`;
-  elements.source.href = `https://github.com/mr-jonam/quality-atlas/blob/main/${note.path}`;
+  elements.crumb.textContent = `${groupLabel(note.group)} / ${note.title}`;
+  elements.source.href = `https://github.com/mr-jonam/quality-atlas/blob/lang/fr/${note.path}`;
   elements.content.innerHTML = `
     <article class="note">
-      <div class="note-meta"><span>${escapeHtml(note.level)}</span><time datetime="${escapeHtml(note.updated)}">Updated ${escapeHtml(note.updated)}</time></div>
+      <div class="note-meta"><span>${escapeHtml(note.level)}</span><time datetime="${escapeHtml(note.updated)}">Mis à jour ${escapeHtml(note.updated)}</time></div>
       ${renderMarkdown(note.body, note.id)}
-      <div class="tag-list" aria-label="Tags">${note.tags.map((tag) => `<button type="button" data-tag="${escapeHtml(tag)}">#${escapeHtml(tag)}</button>`).join("")}</div>
+      <div class="tag-list" aria-label="Étiquettes">${note.tags.map((tag) => `<button type="button" data-tag="${escapeHtml(tag)}">#${escapeHtml(tag)}</button>`).join("")}</div>
     </article>`;
   elements.content.querySelectorAll("[data-tag]").forEach((button) => button.addEventListener("click", () => {
     elements.search.value = button.dataset.tag; applyFilters(); elements.search.focus();
@@ -219,9 +221,9 @@ async function initialize() {
     fillFilters(); applyFilters(); route();
   } catch (error) {
     elements.navigation.innerHTML = "";
-    elements.content.innerHTML = `<div class="error-state"><strong>The atlas could not be loaded.</strong><span>${escapeHtml(error.message)}</span><button type="button" id="retry-load">Try again</button></div>`;
+    elements.content.innerHTML = `<div class="error-state"><strong>Impossible de charger l’atlas.</strong><span>${escapeHtml(error.message)}</span><button type="button" id="retry-load">Réessayer</button></div>`;
     document.querySelector("#retry-load").addEventListener("click", () => location.reload());
-    elements.count.textContent = "Unavailable";
+    elements.count.textContent = "Indisponible";
   }
 }
 
@@ -239,7 +241,7 @@ document.querySelector("#open-nav").addEventListener("click", openNav);
 document.querySelector("#close-nav").addEventListener("click", closeNav);
 elements.scrim.addEventListener("click", closeNav);
 document.querySelector("#copy-link").addEventListener("click", async () => {
-  await navigator.clipboard.writeText(location.href); toast("Link copied");
+  await navigator.clipboard.writeText(location.href); toast("Lien copié");
 });
 document.querySelector("#theme-toggle").addEventListener("click", () => {
   const next = document.documentElement.dataset.theme === "dark" ? "light" : "dark";

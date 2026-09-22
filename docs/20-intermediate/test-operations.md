@@ -1,46 +1,33 @@
 ---
-title: Test Operations, Data, and Reporting
+title: Opérations de test, données et rapports
 level: intermediate
 roles: [qa-analyst, qa-engineer, automation-engineer, test-lead, developer]
 tags: [test-management, test-data, reporting, version-control, observability]
 updated: 2026-09-22
 ---
+# Opérations de test, données et rapports
 
-# Test Operations, Data, and Reporting / Operations, dati e reporting di test
 
-## English
+Les opérations de test rendent un travail de qualité reproductible et auditable sans le transformer en bureaucratie. Les outils doivent prendre en charge le flux de travail et non le définir.
 
-Test operations make quality work repeatable and auditable without turning it into bureaucracy. Tools should support the workflow, not define it.
+### Planifier et gérer
 
-### Plan and manage
+- relier la portée aux risques et aux décisions du produit ;
+- enregistrer les chartes, scénarios ou cas uniquement au niveau de détail utile ;
+- attribuer la propriété et conserver les preuves à proximité du changement ;
+- stratégies de versions, contrôles automatisés et configuration avec Git ;
+- revoir les tests obsolètes et les couvertures dupliquées.
 
-- connect scope to product risks and decisions;
-- record charters, scenarios or cases only at the useful level of detail;
-- assign ownership and keep evidence close to the change;
-- version strategies, automated checks and configuration with Git;
-- review obsolete tests and duplicated coverage.
+### Gérez les données de test en toute sécurité
 
-### Manage test data safely
+Utilisez par défaut des données synthétiques ou correctement anonymisées. Définissez les contrôles de configuration, de nettoyage, de conservation et d’accès. Gardez les secrets en dehors des référentiels et des journaux. Concevez des données pour les limites, les relations, les états du cycle de vie et les modes de défaillance plutôt que de copier les enregistrements de production.
 
-Use synthetic or properly anonymized data by default. Define setup, cleanup, retention and access controls. Keep secrets outside repositories and logs. Design data for boundaries, relationships, lifecycle states and failure modes rather than copying production records.
+### Rapport pour décisions
 
-### Report for decisions
+Un résultat utile indique ce qui a été exécuté, où, par rapport à quelle version, ce qui a changé, ce qui a échoué et le risque qui en résulte. Préférez les tendances et les diagnostics exploitables au théâtre de comptage de passes. Séparez les pannes de produits, les défauts de test, les problèmes d’environnement et les résultats inconnus.
 
-A useful result states what ran, where, against which version, what changed, what failed and the resulting risk. Prefer trends and actionable diagnostics over pass-count theater. Separate product failures, test defects, environment problems and unknown outcomes.
+### Connecter les preuves d'exécution
 
-### Connect runtime evidence
+Les journaux, les traces, les métriques et les alertes aident à expliquer les échecs et à révéler des comportements que les vérifications préalables ne peuvent pas reproduire. La surveillance ne remplace pas les tests ; ensemble, ils forment un système de rétroaction. Conservez uniquement les preuves nécessaires et appliquez une conservation respectueuse de la confidentialité.
 
-Logs, traces, metrics and alerts help explain failures and reveal behavior that pre-release checks cannot reproduce. Monitoring is not a substitute for testing; together they form a feedback system. Preserve only necessary evidence and apply privacy-aware retention.
-
-## Italiano
-
-Le test operations rendono il lavoro sulla qualità ripetibile e verificabile senza trasformarlo in burocrazia. Gli strumenti devono supportare il flusso, non definirlo.
-
-- Collega ambito, rischi di prodotto e decisioni; conserva charter, scenari o casi solo al livello di dettaglio utile.
-- Versiona strategie, controlli automatici e configurazione con Git; rimuovi test obsoleti e coperture duplicate.
-- Usa dati sintetici o correttamente anonimizzati, con regole per preparazione, pulizia, conservazione e accesso. Mantieni segreti fuori da repository e log.
-- Un report utile indica cosa è stato eseguito, ambiente, versione, cambiamenti, fallimenti e rischio risultante. Distingui problemi di prodotto, test, ambiente ed esiti incerti.
-- Log, trace, metriche e alert spiegano i fallimenti e completano i controlli pre-rilascio. Conserva solo le evidenze necessarie con retention attenta alla privacy.
-
-Related: [[risk-based-strategy]], [[ci-cd-quality-gates]], [[../30-advanced/metrics-observability]].
-
+Connexes : [[risk-based-strategy]], [[ci-cd-quality-gates]], [[../30-advanced/metrics-observability]].

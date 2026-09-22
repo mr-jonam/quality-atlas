@@ -1,45 +1,25 @@
 ---
-title: Defect Communication
+title: Communication des défauts
 level: foundation
 roles: [qa-analyst, qa-engineer, developer, product]
 tags: [defects, bug-report, communication, triage]
 updated: 2026-09-21
 ---
+# Communication des défauts
 
-# Defect Communication / Comunicazione dei difetti
 
-## English
+Un rapport de défaut utile aide une autre personne à comprendre le comportement observé, à le reproduire lorsque cela est possible et à juger de son impact.
 
-A useful defect report helps another person understand the observed behavior, reproduce it when possible, and judge impact.
+### Rapport minimal
 
-### Minimum report
+1. Titre spécifique : comportement, condition, conséquence.
+2. Environnement et identifiant de build.
+3. Conditions préalables et plus petite reproduction fiable.
+4. Résultat observé et résultat attendu ou oracle violé.
+5. Impact : utilisateurs concernés, données, fréquence, récupérabilité.
+6. Preuve ciblée : journaux, réponse, capture d'écran ou trace sans données sensibles.
+7. Reproductibilité et variabilité pertinente.
 
-1. Specific title: behavior, condition, consequence.
-2. Environment and build identifier.
-3. Preconditions and smallest reliable reproduction.
-4. Observed result and expected result or violated oracle.
-5. Impact: affected users, data, frequency, recoverability.
-6. Focused evidence: logs, response, screenshot, or trace without sensitive data.
-7. Reproducibility and relevant variability.
+La gravité décrit l'impact ; la priorité décrit la planification. Ils s'informent mutuellement mais ne sont pas interchangeables. Le tri doit combiner l’impact du produit, le risque technique, la portée, la solution de contournement, le coût du retard et le risque de résolution.
 
-Severity describes impact; priority describes scheduling. They inform each other but are not interchangeable. Triage should combine product impact, technical risk, reach, workaround, cost of delay, and fix risk.
-
-Avoid blame, absolute claims without evidence, and large unfiltered attachments.
-
-## Italiano
-
-Un defect report utile permette di comprendere il comportamento osservato, riprodurlo quando possibile e valutarne l'impatto.
-
-### Contenuto minimo
-
-1. Titolo specifico: comportamento, condizione, conseguenza.
-2. Ambiente e identificativo della build.
-3. Precondizioni e riproduzione minima affidabile.
-4. Risultato osservato e risultato atteso o oracolo violato.
-5. Impatto: utenti o dati coinvolti, frequenza, recuperabilità.
-6. Evidenze mirate prive di dati sensibili.
-7. Riproducibilità e variabilità rilevante.
-
-La severity descrive l'impatto; la priority descrive la pianificazione. Il triage combina impatto sul prodotto, rischio tecnico, diffusione, workaround, costo del ritardo e rischio della correzione.
-
-Template: `templates/defect-report.md`.
+Évitez les reproches, les affirmations absolues sans preuves et les pièces jointes volumineuses non filtrées.

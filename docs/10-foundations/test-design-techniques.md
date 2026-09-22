@@ -1,43 +1,23 @@
 ---
-title: Test Design Techniques
+title: Techniques de conception de tests
 level: foundation
 roles: [qa-analyst, qa-engineer, developer]
 tags: [test-design, equivalence-partitioning, boundaries, state, pairwise]
 updated: 2026-09-21
 ---
+# Techniques de conception de tests
 
-# Test Design Techniques / Tecniche di progettazione dei test
 
-## English
+Les techniques réduisent la sélection arbitraire des tests. Combinez-les en fonction du risque et du modèle disponible.
 
-Techniques reduce arbitrary test selection. Combine them according to the risk and model available.
+- **Partitionnement d'équivalence** : les entrées de groupe devraient se comporter de manière similaire ; échantillonnez chaque groupe significatif.
+- **Analyse des valeurs limites** : vérifiez aux limites significatives, juste en dessous et juste au-dessus.
+- **Tableaux de décision** : mapper les combinaisons de conditions aux résultats ; utile pour les règles métier.
+- **Tests de transition d'état** : états du modèle, événements valides, événements non valides et états résultants.
+- **Tests de scénarios** : suivez des parcours réalistes d'utilisateur ou de système à travers les fonctionnalités.
+- **Tests par paires/combinatoires** : couvrent les interactions entre les paramètres sans tester chaque combinaison.
+- **Erreur devinée** : utilisez l'expérience pour cibler les échecs probables, puis rendez l'heuristique explicite.
 
-- **Equivalence partitioning**: group inputs expected to behave similarly; sample each meaningful group.
-- **Boundary value analysis**: check at, just below, and just above meaningful limits.
-- **Decision tables**: map combinations of conditions to outcomes; useful for business rules.
-- **State-transition testing**: model states, valid events, invalid events, and resulting states.
-- **Scenario testing**: follow realistic user or system journeys across features.
-- **Pairwise/combinatorial testing**: cover interactions among parameters without testing every combination.
-- **Error guessing**: use experience to target likely failures, then make the heuristic explicit.
+### Mini-exemple
 
-### Mini example
-
-A fictional booking rule accepts 1 to 8 seats. Useful partitions include below 1, valid 1–8, and above 8. Boundaries include 0, 1, 8, and 9. Add non-numeric, empty, repeated submission, and concurrency cases only when they represent relevant risks.
-
-## Italiano
-
-Le tecniche riducono la selezione arbitraria dei test. Combinale in base al rischio e al modello disponibile.
-
-- **Partizionamento di equivalenza**: raggruppa input con comportamento atteso simile.
-- **Analisi dei valori limite**: verifica il limite, il valore subito precedente e quello successivo.
-- **Tabelle decisionali**: collegano combinazioni di condizioni e risultati.
-- **Transizioni di stato**: modellano stati, eventi validi o invalidi e stati risultanti.
-- **Scenari**: seguono percorsi realistici di utenti o sistemi.
-- **Pairwise/combinatorio**: copre interazioni tra parametri senza provare ogni combinazione.
-- **Error guessing**: usa l'esperienza per colpire errori probabili, rendendo esplicita l'euristica.
-
-### Esempio minimo
-
-Una regola fittizia accetta da 1 a 8 posti. Le partizioni includono valori sotto 1, validi 1–8 e sopra 8; i limiti includono 0, 1, 8 e 9. Aggiungi casi vuoti, non numerici, invii ripetuti o concorrenza solo se rappresentano rischi pertinenti.
-
-Practice with: [[../40-playbooks/exploratory-session]] and `templates/test-charter.md`.
+Une règle de réservation fictive accepte de 1 à 8 places. Les partitions utiles incluent ci-dessous 1, valides 1 à 8 et supérieurs à 8. Les limites incluent 0, 1, 8 et 9. Ajoutez des cas de soumission non numériques, vides, répétés et de concurrence uniquement lorsqu'ils représentent des risques pertinents.

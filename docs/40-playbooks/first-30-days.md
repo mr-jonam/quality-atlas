@@ -1,46 +1,30 @@
 ---
-title: First 30 Days in a QA Role
+title: 30 premiers jours dans un rôle d'assurance qualité
 level: all
 roles: [qa-analyst, qa-engineer, automation-engineer, test-lead]
 tags: [onboarding, knowledge-transfer, first-30-days]
 updated: 2026-09-21
 ---
+# 30 premiers jours dans un rôle d'assurance qualité
 
-# First 30 Days in a QA Role / Primi 30 giorni in un ruolo QA
 
-## English
+### Jours 1 à 10 : comprendre
 
-### Days 1–10: understand
+- Découvrez les résultats du produit, les groupes d'utilisateurs, les parcours critiques et le vocabulaire.
+- Cartographiez les environnements, le flux de livraison, les sources de données, la politique de support et les risques connus.
+- Exécutez le produit et observez un changement entre l'idée et le déploiement.
+- Examinez un petit échantillon de défauts et d'incidents récents.
 
-- Learn the product outcomes, user groups, critical journeys, and vocabulary.
-- Map environments, delivery flow, data sources, support policy, and known risks.
-- Run the product and observe one change from idea to deployment.
-- Review a small sample of recent defects and incidents.
+### Jours 11 à 20 : contribuer
 
-### Days 11–20: contribute
+- Paire sur l'analyse des risques, la conception des tests et une session exploratoire.
+- Exécuter et expliquer le pipeline de feedback existant.
+- Améliorer une note peu claire, un contrôle peu fiable ou une lacune de diagnostic.
+- Partagez vos questions et vos hypothèses dès le début.
 
-- Pair on risk analysis, test design, and one exploratory session.
-- Execute and explain the existing feedback pipeline.
-- Improve one unclear note, unreliable check, or diagnostic gap.
-- Share questions and assumptions early.
+### Jours 21 à 30 : possédez un petit résultat
 
-### Days 21–30: own a small outcome
-
-- Lead testing for a bounded change.
-- Communicate coverage and residual risk.
-- Propose one measurable improvement to feedback speed or quality.
-- Agree on the next learning goal with a peer or lead.
-
-## Italiano
-
-### Giorni 1–10: comprendere
-
-Impara outcome, utenti, percorsi critici e vocabolario. Mappa ambienti, delivery, dati e rischi. Osserva una modifica dall'idea al deployment e rivedi alcuni difetti o incidenti recenti.
-
-### Giorni 11–20: contribuire
-
-Lavora in pairing su rischi, test design e una sessione esplorativa. Esegui la pipeline esistente e migliora una nota poco chiara, un controllo inaffidabile o una lacuna diagnostica.
-
-### Giorni 21–30: assumere un piccolo outcome
-
-Guida il testing di una modifica limitata, comunica copertura e rischio residuo, proponi un miglioramento misurabile e concorda il prossimo obiettivo di apprendimento.
+- Mener des tests pour un changement limité.
+- Communiquer la couverture et le risque résiduel.
+- Proposer une amélioration mesurable de la vitesse ou de la qualité du feedback.
+- Convenez du prochain objectif d'apprentissage avec un pair ou un responsable.

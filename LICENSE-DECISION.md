@@ -1,19 +1,19 @@
-# License decision
+# Décision de licence
 
-## Decision
+## Décision
 
-- Documentation and templates: CC BY 4.0.
-- Web reader, scripts, CI, and container configuration: MIT.
+- Documentation et modèles : CC BY 4.0.
+- Configuration du lecteur Web, scripts, CI et conteneur : MIT.
 
-## Rationale
+## Justification
 
-The project is intended for broad educational reuse and discovery. CC BY 4.0 keeps attribution explicit while allowing translation, adaptation, and commercial or non-commercial reuse. MIT makes the small software component easy to run, modify, and embed. Keeping the scopes separate avoids applying a software license to prose or a content license to executable code.
+Le projet est destiné à une large réutilisation et découverte pédagogique. CC BY 4.0 maintient l'attribution explicite tout en permettant la traduction, l'adaptation et la réutilisation commerciale ou non commerciale. Le MIT rend le petit composant logiciel facile à exécuter, à modifier et à intégrer. Garder les portées séparées évite d'appliquer une licence de logiciel à la prose ou une licence de contenu au code exécutable.
 
-## Review performed
+## Examen effectué
 
-- No third-party source code, proprietary documentation, media, datasets, or client material is bundled.
-- External resources are linked and paraphrased; no substantial text is copied.
-- No contributor identity, personal data, signing key, or recovery secret is stored in the repository.
-- GitHub's platform terms permit public viewing and repository forking. A public repository is appropriate because discoverability and reuse are explicit goals.
+- Aucun code source tiers, documentation exclusive, média, ensemble de données ou matériel client n'est regroupé.
+- Les ressources externes sont liées et paraphrasées ; aucun texte substantiel n’est copié.
+- Aucune identité de contributeur, données personnelles, clé de signature ou secret de récupération n'est stockée dans le référentiel.
+- Les termes de la plate-forme GitHub autorisent la visualisation publique et la bifurcation du référentiel. Un référentiel public est approprié car la découvrabilité et la réutilisation sont des objectifs explicites.
 
-Future contributions must confirm that the contributor has the right to submit the material under the applicable license. Legal advice may be appropriate before materially changing the licensing model.
+Les contributions futures doivent confirmer que le contributeur a le droit de soumettre le matériel sous la licence applicable. Un avis juridique peut être approprié avant de modifier substantiellement le modèle de licence.
