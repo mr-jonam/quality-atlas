@@ -1,23 +1,23 @@
-# Contributing
+# Contribuire
 
-Contributions that improve clarity, correctness, accessibility, or language parity are welcome.
+Sono benvenuti contributi che migliorino la chiarezza, la correttezza, l'accessibilità o la parità linguistica.
 
-## Content rules
+## Regole sui contenuti
 
-- Keep every note useful without organization-specific context.
-- Write English first and Italian second, with matching meaning.
-- Use fictional, generic examples and non-sensitive sample data.
-- Never add names, customer information, credentials, private URLs, internal architecture, or proprietary playbooks.
-- Prefer concise explanations, observable outcomes, and practical checklists.
-- Cite authoritative public sources when a claim depends on a standard or evolving practice.
-- Add the required YAML frontmatter and update `updated` using `YYYY-MM-DD`.
+- Mantieni ogni nota utile senza il contesto specifico dell'organizzazione.
+- Scrivi tutti i contenuti didattici in italiano. Mantieni il significato allineato al ramo principale.
+- Utilizzare esempi fittizi e generici e dati campione non sensibili.
+- Non aggiungere mai nomi, informazioni sui clienti, credenziali, URL privati, architettura interna o playbook proprietari.
+- Preferire spiegazioni concise, risultati osservabili e liste di controllo pratiche.
+- Citare fonti pubbliche autorevoli quando un'affermazione dipende da una pratica standard o in evoluzione.
+- Aggiungi il frontmatter YAML richiesto e aggiorna "updated" utilizzando "YYYY-MM-DD".
 
-## Workflow
+## Flusso di lavoro
 
-1. Create or edit a focused note.
-2. Link it from the closest map of content.
-3. Run `npm run check`.
-4. Review the diff for accidental sensitive data.
-5. Submit a pull request explaining the learning outcome.
+1. Crea o modifica una nota focalizzata.
+2. Collegalo dalla mappa dei contenuti più vicina.
+3. Eseguire "npm run check".
+4. Esaminare la differenza per i dati sensibili accidentali.
+5. Invia una richiesta pull che spiega il risultato dell'apprendimento.
 
-By contributing, you agree that documentation is licensed under CC BY 4.0 and code under MIT, as described in `LICENSE`.
+Contribuendo, accetti che la documentazione sia concessa in licenza sotto CC BY 4.0 e codice sotto MIT, come descritto in "LICENZA".

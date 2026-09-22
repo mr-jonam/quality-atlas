@@ -1,5 +1,5 @@
 ---
-title: Quality Atlas Home
+title: Quality Atlas
 level: all
 roles: [qa-analyst, qa-engineer, automation-engineer, test-lead, developer, product]
 tags: [qa, software-testing, onboarding, knowledge-transfer]
@@ -10,28 +10,6 @@ updated: 2026-09-22
 
 > A practical map of software quality: learn the language, choose useful tests, communicate evidence, and improve the system that produces the product.
 
-## English
-
-Quality is a shared product capability. Testing contributes information about risk; it does not prove that a system has no defects. Use this vault as a map, not a rigid process.
-
-### Choose an entry point
-
-- New to testing: [[learning-paths#Foundation route]]
-- Want the complete sequence: [[qa-engineer-roadmap]]
-- Moving into automation: [[learning-paths#Automation route]]
-- Coordinating quality: [[learning-paths#Test lead route]]
-- Building quality as a developer or product partner: [[role-map]]
-- Need a reusable worksheet: browse `templates/`
-
-### Knowledge map
-
-1. **Foundations**: mindset, terminology, SDLC, test design, defect communication.
-2. **Intermediate**: risk, strategy, API and UI testing, automation, delivery pipelines, test operations.
-3. **Advanced**: architecture, performance, security, observability, leadership.
-4. **Playbooks**: short workflows for recurring quality activities.
-5. **Reference**: glossary and authoritative public resources.
-
-## Italiano
 
 La qualità è una capacità condivisa del prodotto. Il testing produce informazioni sul rischio; non dimostra l'assenza di difetti. Usa questo vault come mappa, non come processo rigido.
 
@@ -52,12 +30,12 @@ La qualità è una capacità condivisa del prodotto. Il testing produce informaz
 4. **Playbook**: flussi brevi per attività ricorrenti.
 5. **Riferimenti**: glossario e risorse pubbliche autorevoli.
 
-## Principles / Principi
+## Principi
 
-- Test earlier, but also test in production safely. / Testa prima, ma verifica in sicurezza anche in produzione.
-- Prefer evidence over confidence theater. / Preferisci evidenze alla sicurezza solo apparente.
-- Automate repeatable checks, not curiosity. / Automatizza i controlli ripetibili, non la curiosità.
-- Optimize feedback time and signal quality. / Ottimizza tempi di feedback e qualità del segnale.
-- Treat accessibility, security, and operability as quality. / Considera accessibilità, sicurezza e operabilità parte della qualità.
+- Testa prima, ma verifica in sicurezza anche in produzione.
+- Preferisci evidenze alla sicurezza solo apparente.
+- Automatizza i controlli ripetibili, non la curiosità.
+- Ottimizza tempi di feedback e qualità del segnale.
+- Considera accessibilità, sicurezza e operabilità parte della qualità.
 
-Next: [[learning-paths]] or [[../10-foundations/qa-mindset]].
+Successivo: [[learning-paths]] or [[../10-foundations/qa-mindset]].

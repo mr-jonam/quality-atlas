@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-const state = { notes: [], filtered: [], active: null };
+const state = { note: [], filtered: [], active: null };
 const elements = {
   content: document.querySelector("#content"),
   navigation: document.querySelector("#navigation"),
@@ -33,8 +33,8 @@ function noteTarget(raw, currentId) {
     else if (part !== "." && part) normalized.push(part);
   }
   let id = normalized.join("/");
-  if (!state.notes.some((note) => note.id === id)) {
-    const match = state.notes.find((note) => note.id.endsWith(`/${clean}`) || note.id.endsWith(`/${clean.replace(/^.*\//, "")}`));
+  if (!state.note.some((note) => note.id === id)) {
+    const match = state.note.find((note) => note.id.endsWith(`/${clean}`) || note.id.endsWith(`/${clean.replace(/^.*\//, "")}`));
     if (match) id = match.id;
   }
   return `#/doc/${id}${anchor ? `#${slug(anchor)}` : ""}`;
@@ -137,7 +137,7 @@ function renderMarkdown(markdown, currentId) {
 }
 
 function unique(field) {
-  return [...new Set(state.notes.flatMap((note) => Array.isArray(note[field]) ? note[field] : [note[field]]))].filter(Boolean).sort();
+  return [...new Set(state.note.flatMap((note) => Array.isArray(note[field]) ? note[field] : [note[field]]))].filter(Boolean).sort();
 }
 
 function fillFilters() {
@@ -147,7 +147,7 @@ function fillFilters() {
 
 function applyFilters() {
   const query = elements.search.value.trim().toLowerCase();
-  state.filtered = state.notes.filter((note) => {
+  state.filtered = state.note.filter((note) => {
     const haystack = [note.title, note.body, ...note.tags, ...note.roles].join(" ").toLowerCase();
     return (!query || haystack.includes(query)) && (!elements.level.value || note.level === elements.level.value)
       && (!elements.role.value || note.roles.includes(elements.role.value));
@@ -156,9 +156,9 @@ function applyFilters() {
 }
 
 function renderNavigation() {
-  elements.count.textContent = `${state.filtered.length} of ${state.notes.length} notes`;
+  elements.count.textContent = `${state.filtered.length} of ${state.note.length} note`;
   if (!state.filtered.length) {
-    elements.navigation.innerHTML = '<div class="empty-state"><strong>No matching notes</strong><span>Try fewer words or clear a filter.</span><button type="button" id="clear-filters">Clear filters</button></div>';
+    elements.navigation.innerHTML = '<div class="empty-state"><strong>No matching note</strong><span>Prova meno parole o rimuovi un filtro.</span><button type="button" id="clear-filters">Rimuovi filtri</button></div>';
     document.querySelector("#clear-filters").addEventListener("click", () => {
       elements.search.value = ""; elements.level.value = ""; elements.role.value = ""; applyFilters();
     });
@@ -166,25 +166,25 @@ function renderNavigation() {
   }
   const groups = new Map();
   for (const note of state.filtered) groups.set(note.group, [...(groups.get(note.group) || []), note]);
-  elements.navigation.innerHTML = [...groups.entries()].map(([group, notes]) => `
+  elements.navigation.innerHTML = [...groups.entries()].map(([group, note]) => `
     <section class="nav-group">
-      <h2>${escapeHtml(group)}</h2>
-      ${notes.map((note) => `<a href="#/doc/${note.id}" data-id="${note.id}" class="${note.id === state.active?.id ? "active" : ""}"><span>${escapeHtml(note.title)}</span><small>${escapeHtml(note.level)}</small></a>`).join("")}
+      <h2>${escapeHtml(groupLabel(group))}</h2>
+      ${note.map((note) => `<a href="#/doc/${note.id}" data-id="${note.id}" class="${note.id === state.active?.id ? "active" : ""}"><span>${escapeHtml(note.title)}</span><small>${escapeHtml(note.level)}</small></a>`).join("")}
     </section>`).join("");
 }
 
 function showNote(id) {
-  const note = state.notes.find((item) => item.id === id) || state.notes.find((item) => item.id.endsWith("/home")) || state.notes[0];
+  const note = state.note.find((item) => item.id === id) || state.note.find((item) => item.id.endsWith("/home")) || state.note[0];
   if (!note) return;
   state.active = note;
   document.title = `${note.title} | Quality Atlas`;
-  elements.crumb.textContent = `${note.group} / ${note.title}`;
-  elements.source.href = `https://github.com/mr-jonam/quality-atlas/blob/main/${note.path}`;
+  elements.crumb.textContent = `${groupLabel(note.group)} / ${note.title}`;
+  elements.source.href = `https://github.com/mr-jonam/quality-atlas/blob/lang/it/${note.path}`;
   elements.content.innerHTML = `
     <article class="note">
-      <div class="note-meta"><span>${escapeHtml(note.level)}</span><time datetime="${escapeHtml(note.updated)}">Updated ${escapeHtml(note.updated)}</time></div>
+      <div class="note-meta"><span>${escapeHtml(note.level)}</span><time datetime="${escapeHtml(note.updated)}">Aggiornato ${escapeHtml(note.updated)}</time></div>
       ${renderMarkdown(note.body, note.id)}
-      <div class="tag-list" aria-label="Tags">${note.tags.map((tag) => `<button type="button" data-tag="${escapeHtml(tag)}">#${escapeHtml(tag)}</button>`).join("")}</div>
+      <div class="tag-list" aria-label="Tag">${note.tags.map((tag) => `<button type="button" data-tag="${escapeHtml(tag)}">#${escapeHtml(tag)}</button>`).join("")}</div>
     </article>`;
   elements.content.querySelectorAll("[data-tag]").forEach((button) => button.addEventListener("click", () => {
     elements.search.value = button.dataset.tag; applyFilters(); elements.search.focus();
@@ -214,14 +214,14 @@ async function initialize() {
   try {
     const response = await fetch("/api/docs");
     if (!response.ok) throw new Error(`Request failed with ${response.status}`);
-    state.notes = (await response.json()).notes;
-    state.filtered = state.notes;
+    state.note = (await response.json()).note;
+    state.filtered = state.note;
     fillFilters(); applyFilters(); route();
   } catch (error) {
     elements.navigation.innerHTML = "";
-    elements.content.innerHTML = `<div class="error-state"><strong>The atlas could not be loaded.</strong><span>${escapeHtml(error.message)}</span><button type="button" id="retry-load">Try again</button></div>`;
+    elements.content.innerHTML = `<div class="error-state"><strong>Impossibile caricare l’atlante.</strong><span>${escapeHtml(error.message)}</span><button type="button" id="retry-load">Riprova</button></div>`;
     document.querySelector("#retry-load").addEventListener("click", () => location.reload());
-    elements.count.textContent = "Unavailable";
+    elements.count.textContent = "Non disponibile";
   }
 }
 
@@ -239,7 +239,7 @@ document.querySelector("#open-nav").addEventListener("click", openNav);
 document.querySelector("#close-nav").addEventListener("click", closeNav);
 elements.scrim.addEventListener("click", closeNav);
 document.querySelector("#copy-link").addEventListener("click", async () => {
-  await navigator.clipboard.writeText(location.href); toast("Link copied");
+  await navigator.clipboard.writeText(location.href); toast("Link copiato");
 });
 document.querySelector("#theme-toggle").addEventListener("click", () => {
   const next = document.documentElement.dataset.theme === "dark" ? "light" : "dark";

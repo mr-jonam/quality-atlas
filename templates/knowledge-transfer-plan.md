@@ -1,31 +1,30 @@
 ---
-title: Knowledge Transfer Plan Template
+title: Piano di trasferimento delle conoscenze
 level: all
 roles: [test-lead, qa-engineer, developer, product]
 tags: [template, knowledge-transfer, onboarding]
 updated: 2026-09-21
 ---
+# Piano di trasferimento delle conoscenze
 
-# Knowledge transfer plan / Piano KT
+- Argomento:
+- Pubblico e prerequisiti:
+- Risultati di apprendimento osservabili:
+- Materiale originale e registrazioni delle decisioni:
+- Facilitatore e futuro proprietario:
 
-- Topic:
-- Audience and prerequisites:
-- Observable learning outcomes:
-- Source material and decision records:
-- Facilitator and future owner:
+## Progettazione della sessione
 
-## Session design
+1. Contesto e modello mentale:
+2. Dimostrazione guidata:
+3. Esercizio pratico:
+4. Spiegazione o ripasso dello studente:
+5. Feedback e domande aperte:
 
-1. Context and mental model:
-2. Guided demonstration:
-3. Hands-on exercise:
-4. Learner explanation or teach-back:
-5. Feedback and open questions:
+## Seguito
 
-## Follow-through
-
-- Runnable example or checklist:
-- Office hours or pairing:
-- Verification task:
-- Documentation owner:
-- Review date:
+- Esempio eseguibile o lista di controllo:
+- Orario di ricevimento o abbinamento:
+- Compito di verifica:
+- Titolare della documentazione:
+- Data della revisione:

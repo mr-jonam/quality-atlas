@@ -1,38 +1,37 @@
 ---
-title: Lightweight Test Strategy Template
+title: Strategia di test leggera
 level: intermediate
 roles: [qa-engineer, test-lead, developer, product]
 tags: [template, strategy, risk]
 updated: 2026-09-21
 ---
+# Strategia di test leggera
 
-# Lightweight test strategy / Strategia di test leggera
-
-## Outcome and scope / Obiettivo e ambito
+## Risultato e ambito
 
 
-## Quality risks / Rischi di qualità
+## Rischi per la qualità
 
-| Risk | Impact | Likelihood | Planned evidence or mitigation | Owner |
+| Rischio | Impatto | Probabilità | Prove pianificate o mitigazione | Proprietario |
 |---|---|---|---|---|
 | | | | | |
 
-## Test approach / Approccio
+## Approccio al test
 
-- Static review:
-- Unit/component:
-- API/contract/integration:
-- User journeys and exploration:
-- Non-functional quality:
-- Production safeguards:
+- Revisione statica:
+- Unità/componente:
+- API/contratto/integrazione:
+- Percorsi ed esplorazione dell'utente:
+- Qualità non funzionale:
+- Tutela della produzione:
 
-## Environments and data / Ambienti e dati
-
-
-## Entry signals and exit evidence / Segnali di ingresso ed evidenze di uscita
+## Ambienti e dati
 
 
-## Constraints and residual risk / Vincoli e rischio residuo
+## Segnali di entrata e prove di uscita
 
 
-## Review date / Data di revisione
+## Vincoli e rischio residuo
+
+
+## Data della revisione

@@ -1,19 +1,19 @@
-# License decision
+# Decisione sulla licenza
 
-## Decision
+## Decisione
 
-- Documentation and templates: CC BY 4.0.
-- Web reader, scripts, CI, and container configuration: MIT.
+- Documentazione e modelli: CC BY 4.0.
+- Lettore Web, script, CI e configurazione del contenitore: MIT.
 
-## Rationale
+## Motivazione
 
-The project is intended for broad educational reuse and discovery. CC BY 4.0 keeps attribution explicit while allowing translation, adaptation, and commercial or non-commercial reuse. MIT makes the small software component easy to run, modify, and embed. Keeping the scopes separate avoids applying a software license to prose or a content license to executable code.
+Il progetto è destinato ad un ampio riutilizzo e scoperta educativa. CC BY 4.0 mantiene l'attribuzione esplicita consentendo al tempo stesso la traduzione, l'adattamento e il riutilizzo commerciale e non commerciale. Il MIT rende il piccolo componente software facile da eseguire, modificare e incorporare. Mantenere gli ambiti separati evita di applicare una licenza software alla prosa o una licenza di contenuto al codice eseguibile.
 
-## Review performed
+## Revisione eseguita
 
-- No third-party source code, proprietary documentation, media, datasets, or client material is bundled.
-- External resources are linked and paraphrased; no substantial text is copied.
-- No contributor identity, personal data, signing key, or recovery secret is stored in the repository.
-- GitHub's platform terms permit public viewing and repository forking. A public repository is appropriate because discoverability and reuse are explicit goals.
+- Non viene fornito in bundle alcun codice sorgente di terze parti, documentazione proprietaria, supporti, set di dati o materiale del cliente.
+- Le risorse esterne sono collegate e parafrasate; nessun testo sostanziale viene copiato.
+- Nel repository non vengono archiviati l'identità del collaboratore, i dati personali, la chiave di firma o il segreto di ripristino.
+- I termini della piattaforma GitHub consentono la visualizzazione pubblica e il fork del repository. Un repository pubblico è appropriato perché la rilevabilità e il riutilizzo sono obiettivi espliciti.
 
-Future contributions must confirm that the contributor has the right to submit the material under the applicable license. Legal advice may be appropriate before materially changing the licensing model.
+I contributi futuri devono confermare che il contributore ha il diritto di inviare il materiale sotto la licenza applicabile. Potrebbe essere opportuna una consulenza legale prima di modificare materialmente il modello di licenza.

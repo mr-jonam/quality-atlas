@@ -1,32 +1,31 @@
 ---
-title: Exploratory Test Charter Template
+title: Carta esplorativa
 level: all
 roles: [qa-analyst, qa-engineer, developer, product]
 tags: [template, exploratory-testing]
 updated: 2026-09-21
 ---
+# Carta esplorativa
 
-# Exploratory charter / Charter esplorativo
+Esplora **[obiettivo]** con **[risorse o tecniche]** per scoprire informazioni su **[rischio o domanda]**.
 
-Explore **[target]** with **[resources or techniques]** to discover information about **[risk or question]**.
+- Casella temporale:
+- Persone:
+- Ambiente e dati:
+- Oracoli:
+- Nell'ambito:
+- Fuori ambito:
 
-- Timebox:
-- People:
-- Environment and data:
-- Oracles:
-- In scope:
-- Out of scope:
+## Note
 
-## Notes / Note
-
-| Time | Action | Observation, idea, issue, or question |
+| Tempo | Azione | Osservazione, idea, problema o domanda |
 |---|---|---|
 | | | |
 
-## Debrief
+## Rapporto
 
-- Coverage / Copertura:
-- Findings / Risultati:
-- Evidence / Evidenze:
-- Open questions / Domande aperte:
-- Follow-ups / Prossime azioni:
+- Copertura
+- Risultati
+- Prove
+- Domande aperte
+- Follow-up

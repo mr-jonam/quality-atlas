@@ -1,43 +1,42 @@
 ---
-title: Defect Report Template
+title: Rapporto sui difetti
 level: all
 roles: [qa-analyst, qa-engineer, developer]
 tags: [template, defect]
 updated: 2026-09-21
 ---
+# Rapporto sui difetti
 
-# Defect report / Segnalazione difetto
+## Titolo
 
-## Title / Titolo
+"[Comportamento] quando [condizione], causando [conseguenza]".
 
-`[Behavior] when [condition], causing [consequence]`
+## Contesto
 
-## Context / Contesto
+- Costruzione/versione:
+- Ambiente:
+- Stato dei dati, anonimizzati:
+- Riproducibilità:
 
-- Build/version:
-- Environment:
-- Data state, anonymized:
-- Reproducibility:
-
-## Steps / Passi
+## Passaggi
 
 1.
 2.
 3.
 
-## Observed / Osservato
+## Osservato
 
 
-## Expected or oracle / Atteso o oracolo
+## Previsto o oracolo
 
 
-## Impact / Impatto
+## Impatto
 
-- Affected users or systems:
-- Frequency and reach:
-- Recovery or workaround:
-- Data/security/accessibility implications:
+- Utenti o sistemi interessati:
+- Frequenza e portata:
+- Ripristino o soluzione alternativa:
+- Implicazioni su dati/sicurezza/accessibilità:
 
-## Evidence / Evidenze
+## Prove
 
-Add only focused, sanitized logs, responses, screenshots, or traces.
+Aggiungi solo log, risposte, screenshot o tracce focalizzati e ripuliti.

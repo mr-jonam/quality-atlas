@@ -1,5 +1,5 @@
-# Security policy
+# Politica di sicurezza
 
-Quality Atlas contains educational content and a local, dependency-free reader. If you find a security issue, report it privately through the repository owner's GitHub contact options. Do not include credentials, personal data, or exploit details in a public issue.
+L'Atlante della qualità contiene contenuti didattici e un lettore locale privo di dipendenze. Se riscontri un problema di sicurezza, segnalalo in privato tramite le opzioni di contatto GitHub del proprietario del repository. Non includere credenziali, dati personali o dettagli di sfruttamento in una questione pubblica.
 
-For content errors that are not security-sensitive, open a regular issue.
+Per gli errori di contenuto che non sono sensibili alla sicurezza, apri un problema normale.
