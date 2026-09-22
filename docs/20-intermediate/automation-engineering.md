@@ -1,41 +1,31 @@
 ---
-title: Test Automation Engineering
+title: Testautomatisierungstechnik
 level: intermediate
 roles: [qa-engineer, automation-engineer, developer]
 tags: [test-automation, maintainability, test-pyramid, flakiness]
 updated: 2026-09-21
 ---
+# Testautomatisierungstechnik
 
-# Test Automation Engineering / Ingegneria dell'automazione
 
-## English
+Automatisierung ist Software, die Feedback generiert. Sein Wert hängt von der Erkennungsfähigkeit, der Geschwindigkeit, der Vertrauenswürdigkeit, den Wartungskosten und der Klarheit der Diagnose ab.
 
-Automation is software that generates feedback. Its value depends on detection capability, speed, trust, maintenance cost, and diagnostic clarity.
+### Auswahlheuristik
 
-### Selection heuristic
+Automatisiert sich, wenn eine Prüfung wiederholt wird, deterministisch genug, wertvoll bei häufiger Ausführung und kostengünstiger in der Wartung als die Alternativen. Behalten Sie die von Menschen geleitete Erkundung bei, um Neuheiten, Mehrdeutigkeiten, Benutzerfreundlichkeit und unerwartetes Verhalten zu erkennen.
 
-Automate when a check is repeated, deterministic enough, valuable when run frequently, and cheaper to maintain than its alternatives. Keep human-led exploration for novelty, ambiguity, usability, and unexpected behavior.
+Bevorzugen Sie viele schnelle, logiknahe Prüfungen, gezielte Service- und Vertragsprüfungen und eine kleine Anzahl kritischer User Journeys. Die Form ist kontextbezogen, keine Quote.
 
-Prefer many fast checks close to the logic, focused service and contract checks, and a small set of critical user journeys. The shape is contextual, not a quota.
+### Design für Vertrauen
 
-### Design for trust
+- Kontrolldaten und Isolierzustand;
+- auf beobachtbare Bedingungen warten, nicht auf eine willkürliche Zeit;
+- Aussagekräftige Ergebnisse anstelle von Implementierungsdetails behaupten;
+- Fehler unabhängig und unabhängig von der Reihenfolge halten;
+- präzise Diagnosen erstellen und relevante Artefakte aufbewahren;
+- Quarantäne nur mit Besitzer, Grund und Entfernungsdatum;
+- Unregelmäßiges Verhalten messen und Grundursachen beheben.
 
-- control data and isolate state;
-- wait for observable conditions, not arbitrary time;
-- assert meaningful outcomes rather than implementation detail;
-- keep failures independent and order-insensitive;
-- produce concise diagnostics and preserve relevant artifacts;
-- quarantine only with an owner, reason, and removal date;
-- measure flaky behavior and fix root causes.
+Seitenobjekte oder ähnliche Abstraktionen sind nützlich, wenn sie stabile Benutzeraktionen ausdrücken. Vermeiden Sie Ebenen, die die Absicht verbergen oder die Anwendungsimplementierung reproduzieren.
 
-Page objects or similar abstractions are useful when they express stable user actions. Avoid layers that hide intent or reproduce the application implementation.
-
-## Italiano
-
-L'automazione è software che genera feedback. Il valore dipende da capacità di rilevazione, velocità, fiducia, costo di manutenzione e chiarezza diagnostica.
-
-Automatizza controlli ripetuti, sufficientemente deterministici, utili se eseguiti spesso e sostenibili. Mantieni esplorazione umana per novità, ambiguità, usabilità e comportamenti inattesi.
-
-Preferisci molti controlli rapidi vicini alla logica, test mirati di servizio e contratto e pochi percorsi utente critici. Controlla dati e stato, attendi condizioni osservabili, verifica risultati significativi, isola i test e produci diagnostica concisa. Una quarantena deve avere owner, motivo e data di rimozione.
-
-Related: [[ci-cd-quality-gates]], [[../30-advanced/testability-architecture]].
+Verwandt: [[ci-cd-quality-gates]], [[../30-advanced/testability-architecture]].

@@ -1,33 +1,18 @@
 ---
-title: Exploratory Testing Session
+title: Explorative Testsitzung
 level: foundation
 roles: [qa-analyst, qa-engineer, developer, product]
 tags: [exploratory-testing, charter, playbook]
 updated: 2026-09-21
 ---
+# Explorative Testsitzung
 
-# Exploratory Testing Session / Sessione di test esplorativo
 
-## English
+1. **Rahmen**: Wählen Sie ein Risiko, eine Funktion oder eine Frage und schreiben Sie eine aus einem Satz bestehende Charta.
+2. **Zeitrahmen**: normalerweise 30–90 Minuten; Wählen Sie für eine eng gefasste Frage eine kürzere Zeitspanne.
+3. **Vorbereiten**: Umgebung, Daten, Orakel, Tools und bekannte Einschränkungen.
+4. **Erkunden**: alternative Beobachtung, Modellierung, Experimente und Notizen.
+5. **Variieren**: Daten, Reihenfolge, Timing, Berechtigungen, Unterbrechungen und Abhängigkeiten.
+6. **Nachbesprechung**: Zusammenfassung der Berichterstattung, Ergebnisse, Beweise, unbeantworteter Fragen und Folgemaßnahmen.
 
-1. **Frame**: choose a risk, feature, or question and write a one-sentence charter.
-2. **Timebox**: usually 30–90 minutes; select a shorter timebox for a narrow question.
-3. **Prepare**: environment, data, oracles, tools, and known constraints.
-4. **Explore**: alternate observation, modeling, experiments, and note-taking.
-5. **Vary**: data, sequence, timing, permissions, interruptions, and dependencies.
-6. **Debrief**: summarize coverage, findings, evidence, unanswered questions, and follow-ups.
-
-Keep notes lightweight: timestamp, action, observation, idea, issue, question. Distinguish a confirmed problem from an investigation lead.
-
-## Italiano
-
-1. **Inquadra**: scegli rischio, funzionalità o domanda e scrivi un charter in una frase.
-2. **Definisci il tempo**: in genere 30–90 minuti; meno per domande strette.
-3. **Prepara**: ambiente, dati, oracoli, strumenti e vincoli.
-4. **Esplora**: alterna osservazione, modellazione, esperimenti e note.
-5. **Varia**: dati, sequenza, tempi, permessi, interruzioni e dipendenze.
-6. **Debrief**: riassumi copertura, risultati, evidenze, domande e follow-up.
-
-Mantieni note leggere: orario, azione, osservazione, idea, problema, domanda. Distingui un difetto confermato da un indizio da approfondire.
-
-Use `templates/test-charter.md`.
+Halten Sie Notizen übersichtlich: Zeitstempel, Aktion, Beobachtung, Idee, Problem, Frage. Unterscheiden Sie ein bestätigtes Problem von einem Untersuchungshinweis.

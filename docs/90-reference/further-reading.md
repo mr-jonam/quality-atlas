@@ -1,25 +1,23 @@
 ---
-title: Further Reading
+title: Weiterführende Literatur
 level: all
 roles: [qa-analyst, qa-engineer, automation-engineer, test-lead, developer, product]
 tags: [references, standards, learning]
 updated: 2026-09-22
 ---
+# Weiterführende Literatur
 
-# Further Reading / Approfondimenti
+Diese Links führen zu maßgeblichen öffentlichen Quellen. Standards und Leitlinien entwickeln sich weiter; Überprüfen Sie die aktuelle Version, bevor Sie sie zur Konformität oder Zertifizierung verwenden.
 
-These links lead to authoritative public sources. Standards and guidance evolve; verify the current version before using them for compliance or certification.
 
-Questi link rimandano a fonti pubbliche autorevoli. Standard e linee guida evolvono: verifica la versione corrente prima di usarli per conformità o certificazione.
+- [ISTQB Certified Tester Foundation Level](https://www.istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0/): strukturiertes Testvokabular und Grundlehrplan.
+- [OWASP Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/): Leitfaden zum Web-Sicherheitstest.
+- [OWASP Application Security Verification Standard](https://owasp.org/www-project-application-security-verification-standard/): Anwendungssicherheitsanforderungen und Verifizierungsreferenz.
+- [W3C Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/): Barrierefreiheitsstandard und unterstützende Ressourcen.
+- [DORA-Forschung](https://dora.dev/research/): Forschung zur Softwarebereitstellung und Betriebsleistung.
+- [Google Testing Blog](https://testing.googleblog.com/): öffentliche Artikel zu Testtechnikpraktiken.
+- [Martin Fowler: Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html): eine praktische Diskussion über mehrschichtige automatisierte Tests.
+- [RFC Editor](https://www.rfc-editor.org/): primäre Internetprotokollspezifikationen.
+- [roadmap.sh QA Engineer](https://roadmap.sh/qa): eine von der Community gepflegte visuelle Übersicht über häufig vorkommende QA-Lernthemen und Werkzeugkategorien. Quality Atlas verwendet es als einen Input, nicht als empfohlenen oder erschöpfenden Lehrplan.
 
-- [ISTQB Certified Tester Foundation Level](https://www.istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0/): structured testing vocabulary and foundation syllabus.
-- [OWASP Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/): web security testing guidance.
-- [OWASP Application Security Verification Standard](https://owasp.org/www-project-application-security-verification-standard/): application security requirements and verification reference.
-- [W3C Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/): accessibility standard and supporting resources.
-- [DORA research](https://dora.dev/research/): research on software delivery and operational performance.
-- [Google Testing Blog](https://testing.googleblog.com/): public articles on testing engineering practices.
-- [Martin Fowler: Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html): a practical discussion of layered automated tests.
-- [RFC Editor](https://www.rfc-editor.org/): primary internet protocol specifications.
-- [roadmap.sh QA Engineer](https://roadmap.sh/qa): a community-maintained visual overview of commonly encountered QA learning topics and tool categories. Quality Atlas uses it as one input, not as an endorsed or exhaustive curriculum.
-
-No external source endorses or is affiliated with this repository.
+Keine externe Quelle unterstützt dieses Repository oder ist mit ihm verbunden.

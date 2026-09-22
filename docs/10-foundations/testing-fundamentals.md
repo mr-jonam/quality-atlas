@@ -1,45 +1,29 @@
 ---
-title: Testing Fundamentals
+title: Grundlagen testen
 level: foundation
 roles: [qa-analyst, qa-engineer, automation-engineer, developer]
 tags: [testing, levels, types, lifecycle]
 updated: 2026-09-21
 ---
+# Grundlagen testen
 
-# Testing Fundamentals / Fondamenti di testing
 
-## English
+Beim Testen handelt es sich um eine Reihe von Aktivitäten, mit denen Informationen über ein Produkt und seine Risiken ermittelt werden. Bei einer **Prüfung** wird ein beobachtetes Ergebnis mit einer expliziten Erwartung verglichen. **Exploration** kombiniert Lernen, Testdesign und -ausführung in einer Feedbackschleife.
 
-Testing is a set of activities used to discover information about a product and its risks. A **check** compares an observed result with an explicit expectation. **Exploration** combines learning, test design, and execution in a feedback loop.
+### Gängige Teststufen
 
-### Common test levels
+- **Einheit**: ein kleines isoliertes Stück Logik.
+- **Komponente/Dienst**: ein einsetzbares oder sinnvolles Subsystem.
+- **Integration**: Interaktionen über Grenzen hinweg wie Datenbanken, Warteschlangen oder externe Dienste.
+- **System/End-to-End**: repräsentatives Verhalten im gesamten zusammengesetzten System.
+- **Akzeptanz**: Nachweis, dass eine Lösung ein Geschäfts- oder Benutzerbedürfnis unterstützt.
 
-- **Unit**: a small piece of logic in isolation.
-- **Component/service**: a deployable or meaningful subsystem.
-- **Integration**: interactions across boundaries such as databases, queues, or external services.
-- **System/end-to-end**: representative behavior across the assembled system.
-- **Acceptance**: evidence that a solution supports a business or user need.
+### Statische und dynamische Ansätze
 
-### Static and dynamic approaches
+Beim statischen Test werden Anforderungen, Beispiele, Code, Modelle oder Designs überprüft, ohne dass die Software ausgeführt wird. Dynamische Tests überwachen die Ausführung. Beides kann wichtige Probleme frühzeitig aufdecken.
 
-Static testing reviews requirements, examples, code, models, or designs without executing the software. Dynamic testing observes execution. Both can reveal important problems early.
+### Bestätigung und Regression
 
-### Confirmation and regression
+Beim Bestätigungstest wird überprüft, ob ein gemeldetes Problem behoben wurde. Regressionstests suchen nach unbeabsichtigten Auswirkungen an anderer Stelle. Eine Regressionssuite sollte sich mit dem Risiko weiterentwickeln; Es handelt sich nicht um ein Archiv aller jemals geschriebenen Tests.
 
-Confirmation testing checks whether a reported problem was fixed. Regression testing looks for unintended impact elsewhere. A regression suite should evolve with risk; it is not an archive of every test ever written.
-
-## Italiano
-
-Il testing comprende attività che producono informazioni su un prodotto e sui suoi rischi. Un **controllo** confronta un risultato osservato con un'aspettativa esplicita. L'**esplorazione** combina apprendimento, progettazione ed esecuzione in un ciclo di feedback.
-
-### Livelli comuni
-
-- **Unità**: una piccola porzione di logica isolata.
-- **Componente/servizio**: un sottosistema significativo o distribuibile.
-- **Integrazione**: interazioni con database, code o servizi esterni.
-- **Sistema/end-to-end**: comportamento rappresentativo del sistema assemblato.
-- **Accettazione**: evidenze che la soluzione supporta un bisogno utente o di business.
-
-Il testing statico esamina requisiti, esempi, codice, modelli o design senza eseguire il software; quello dinamico osserva l'esecuzione. Il confirmation testing verifica una correzione; il regression testing cerca effetti indesiderati altrove.
-
-Related: [[test-design-techniques]], [[../20-intermediate/automation-engineering]].
+Verwandt: [[test-design-techniques]], [[../20-intermediate/automation-engineering]].

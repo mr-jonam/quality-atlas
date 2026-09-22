@@ -1,38 +1,26 @@
 ---
-title: Security and Accessibility Testing
+title: Sicherheits- und Barrierefreiheitstests
 level: advanced
 roles: [qa-analyst, qa-engineer, automation-engineer, test-lead, developer]
 tags: [security-testing, accessibility, wcag, privacy]
 updated: 2026-09-21
 ---
+# Sicherheits- und Barrierefreiheitstests
 
-# Security and Accessibility Testing / Test di sicurezza e accessibilità
 
-## English
+Sicherheit und Zugänglichkeit sind ständige Qualitätsbedenken. Automatisierte Tools können Muster finden; Menschliche Überprüfung, bedrohungsbasierte Erkundung und Tests unterstützender Technologien bleiben weiterhin notwendig.
 
-Security and accessibility are continuous quality concerns. Automated tools can find patterns; human review, threat-informed exploration, and assistive-technology testing remain necessary.
+### Sicherheitslinsen
 
-### Security lenses
+- Vermögenswerte, Vertrauensgrenzen, Identitäten, Rollen und Missbrauchsfälle;
+- Authentifizierung, Sitzungslebenszyklus, Autorisierung und Mandantenisolierung;
+- Eingabeverarbeitung, Ausgabekodierung, Dateiverarbeitung und Injektionspfade;
+- Geheimnisse, Verschlüsselung, Protokollierung, Aufbewahrung und Datenschutzoptionen;
+- Abhängigkeits-, Konfigurations-, Lieferketten- und Bereitstellungsrisiko;
+- Ratenbegrenzung, Wiederherstellung und Beweise für Vorfälle.
 
-- assets, trust boundaries, identities, roles, and abuse cases;
-- authentication, session lifecycle, authorization, and tenant isolation;
-- input handling, output encoding, file processing, and injection paths;
-- secrets, encryption, logging, retention, and privacy choices;
-- dependency, configuration, supply-chain, and deployment risk;
-- rate limiting, recovery, and incident evidence.
+Führen Sie aktive Sicherheitstests nur mit expliziter Autorisierung und kontrolliertem Umfang durch.
 
-Only perform active security testing with explicit authorization and a controlled scope.
+### Barrierefreie Objektive
 
-### Accessibility lenses
-
-Use the current stable WCAG 2 recommendation as an authoritative reference. Cover keyboard-only use, visible focus, semantics, names and roles, text alternatives, contrast, zoom/reflow, motion, errors, timing, and representative assistive technologies. Conformance criteria are a floor, not a complete account of user experience.
-
-## Italiano
-
-Sicurezza e accessibilità sono dimensioni continue della qualità. Gli strumenti automatici rilevano pattern; restano necessari review umana, esplorazione guidata dalle minacce e test con tecnologie assistive.
-
-Per la sicurezza considera asset, confini di fiducia, identità, autorizzazioni, sessioni, isolamento, input, file, secret, cifratura, log, dipendenze, configurazione, rate limit e recupero. Esegui test attivi solo con autorizzazione esplicita e scope controllato.
-
-Per l'accessibilità usa la raccomandazione WCAG 2 stabile più recente. Verifica tastiera, focus, semantica, nomi e ruoli, alternative testuali, contrasto, zoom, reflow, movimento, errori, tempi e tecnologie assistive rappresentative. La conformità è una base, non l'intera esperienza utente.
-
-References: [[../90-reference/further-reading]].
+Verwenden Sie die aktuelle stabile WCAG 2-Empfehlung als maßgebliche Referenz. Behandeln Sie die reine Tastaturnutzung, sichtbaren Fokus, Semantik, Namen und Rollen, Textalternativen, Kontrast, Zoom/Reflow, Bewegung, Fehler, Timing und repräsentative Hilfstechnologien. Bei den Konformitätskriterien handelt es sich um eine Untergrenze und nicht um eine vollständige Darstellung der Benutzererfahrung.

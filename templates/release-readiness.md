@@ -1,32 +1,31 @@
 ---
-title: Release Readiness Template
+title: Release-Bereitschaft
 level: intermediate
 roles: [test-lead, qa-engineer, developer, product]
 tags: [template, release, readiness]
 updated: 2026-09-21
 ---
+# Release-Bereitschaft
 
-# Release readiness / Readiness al rilascio
+- Freigabe/Änderung:
+- Entscheidungszeitpunkt:
+- Entscheidungseigentümer:
+- Beabsichtigtes Ergebnis:
 
-- Release/change:
-- Decision time:
-- Decision owner(s):
-- Intended outcome:
+## Beweise
 
-## Evidence
+- Umfang und veränderte Oberflächen:
+- Höchste Risiken und Deckung:
+- Relevante Test- und Überprüfungsergebnisse:
+- Offene Mängel und Restwirkung:
+- Sicherheit, Datenschutz, Zugänglichkeit und Compliance-Status:
+- Bereitstellung, Migration, Kompatibilität und Rollback:
+- Überwachung, Warnungen, Support und Vorfallpfad:
 
-- Scope and changed surfaces:
-- Highest risks and coverage:
-- Relevant test and review results:
-- Open defects and residual impact:
-- Security, privacy, accessibility, and compliance status:
-- Deployment, migration, compatibility, and rollback:
-- Monitoring, alerts, support, and incident path:
+## Entscheidung
 
-## Decision
+- [ ] Weiter
+- [ ] Fahren Sie mit messbaren Bedingungen fort
+- [ ] Fahren Sie noch nicht fort
 
-- [ ] Proceed
-- [ ] Proceed with measurable conditions
-- [ ] Do not proceed yet
-
-Conditions, assumptions, owners, and review time:
+Bedingungen, Annahmen, Eigentümer und Überprüfungszeit:

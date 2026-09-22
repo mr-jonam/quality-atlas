@@ -1,33 +1,23 @@
 ---
-title: CI/CD Quality Gates
+title: CI/CD-Qualitätstore / Qualitätstor CI/CD
 level: intermediate
 roles: [qa-engineer, automation-engineer, test-lead, developer]
 tags: [ci-cd, quality-gates, pipeline, feedback]
 updated: 2026-09-21
 ---
+# CI/CD-Qualitätstore / Qualitätstor CI/CD
 
-# CI/CD Quality Gates / Quality gate CI/CD
 
-## English
+Eine Pipeline sollte schnelles, vertrauenswürdiges Feedback geben und eine sichere Lieferung unterstützen. Ein Tor ist nur dann nützlich, wenn sein Signal relevant ist, verstanden wird und darauf reagiert wird.
 
-A pipeline should give fast, trustworthy feedback and support safe delivery. A gate is useful only when its signal is relevant, understood, and acted upon.
+### Mehrschichtiges Feedback
 
-### Layered feedback
+1. Vor dem Commit: Formatierer, statische Analyse, gezielte lokale Prüfungen.
+2. Pull-Request: Unit-/Komponententests, Sicherheits- und Abhängigkeitsanalyse, gezielte Integrationstests.
+3. Hauptzweig: umfassendere Integration, Vertrags-, Migrations- und kritische Reiseprüfungen.
+4. Bereitstellung: Rauchtests, Gesundheitsprüfungen, Konfigurationsvalidierung.
+5. Produktion: progressive Offenlegung, Service-Level-Indikatoren, Warnungen und Rollback-Signale.
 
-1. Before commit: formatter, static analysis, focused local checks.
-2. Pull request: unit/component tests, security and dependency analysis, targeted integration tests.
-3. Main branch: broader integration, contract, migration, and critical journey checks.
-4. Deployment: smoke tests, health checks, configuration validation.
-5. Production: progressive exposure, service-level indicators, alerts, and rollback signals.
+Führen Sie frühestens die schnellsten Hochsignalprüfungen durch. Unabhängiges Arbeiten parallelisieren. Cachen Sie sorgfältig und machen Sie die Cache-Ungültigmachung sichtbar. Trennen Sie einen Produktfehler von einem Umgebungs- oder Infrastrukturfehler.
 
-Keep the fastest high-signal checks earliest. Parallelize independent work. Cache carefully and make cache invalidation visible. Separate a product failure from an environment or infrastructure failure.
-
-Do not convert every metric into a hard gate. Advisory signals may be better when thresholds are immature. Review gate effectiveness by asking what it catches, delays, misses, and causes people to bypass.
-
-## Italiano
-
-Una pipeline deve offrire feedback rapido e affidabile e supportare delivery sicuro. Un gate è utile solo se il segnale è pertinente, compreso e seguito da un'azione.
-
-Distribuisci i controlli tra pre-commit, pull request, branch principale, deployment e produzione. Posiziona prima i controlli veloci ad alto segnale, parallelizza attività indipendenti e distingui fallimenti del prodotto da problemi di ambiente.
-
-Non trasformare ogni metrica in blocco. Usa segnali informativi quando le soglie sono immature e verifica periodicamente cosa il gate rileva, rallenta, non vede o induce a bypassare.
+Wandeln Sie nicht jede Metrik in ein hartes Tor um. Beratungssignale können besser sein, wenn die Schwellenwerte noch nicht ausgereift sind. Überprüfen Sie die Wirksamkeit des Gates, indem Sie fragen, was es auffängt, verzögert, verpasst und was dazu führt, dass Personen umgangen werden.

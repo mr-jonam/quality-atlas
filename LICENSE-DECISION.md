@@ -1,19 +1,19 @@
-# License decision
+# Lizenzentscheidung
 
-## Decision
+## Entscheidung
 
-- Documentation and templates: CC BY 4.0.
-- Web reader, scripts, CI, and container configuration: MIT.
+- Dokumentation und Vorlagen: CC BY 4.0.
+- Webreader, Skripte, CI und Containerkonfiguration: MIT.
 
-## Rationale
+## Begründung
 
-The project is intended for broad educational reuse and discovery. CC BY 4.0 keeps attribution explicit while allowing translation, adaptation, and commercial or non-commercial reuse. MIT makes the small software component easy to run, modify, and embed. Keeping the scopes separate avoids applying a software license to prose or a content license to executable code.
+Das Projekt ist für eine umfassende Wiederverwendung und Entdeckung im Bildungsbereich gedacht. CC BY 4.0 sorgt dafür, dass die Namensnennung eindeutig bleibt, ermöglicht aber gleichzeitig die Übersetzung, Adaption und kommerzielle oder nichtkommerzielle Wiederverwendung. MIT macht die kleine Softwarekomponente einfach auszuführen, zu ändern und einzubetten. Durch die Trennung der Bereiche wird vermieden, dass eine Softwarelizenz auf Prosa oder eine Inhaltslizenz auf ausführbaren Code angewendet wird.
 
-## Review performed
+## Überprüfung durchgeführt
 
-- No third-party source code, proprietary documentation, media, datasets, or client material is bundled.
-- External resources are linked and paraphrased; no substantial text is copied.
-- No contributor identity, personal data, signing key, or recovery secret is stored in the repository.
-- GitHub's platform terms permit public viewing and repository forking. A public repository is appropriate because discoverability and reuse are explicit goals.
+- Es wird kein Quellcode Dritter, proprietäre Dokumentation, Medien, Datensätze oder Kundenmaterial gebündelt.
+- Externe Ressourcen werden verlinkt und paraphrasiert; Es wird kein wesentlicher Text kopiert.
+- Im Repository werden weder die Identität des Mitwirkenden noch persönliche Daten, Signaturschlüssel oder Wiederherstellungsgeheimnisse gespeichert.
+– Die Plattformbedingungen von GitHub erlauben die öffentliche Anzeige und Repository-Forking. Ein öffentliches Repository ist angemessen, da Auffindbarkeit und Wiederverwendung explizite Ziele sind.
 
-Future contributions must confirm that the contributor has the right to submit the material under the applicable license. Legal advice may be appropriate before materially changing the licensing model.
+Zukünftige Beiträge müssen bestätigen, dass der Mitwirkende das Recht hat, das Material unter der geltenden Lizenz einzureichen. Vor einer wesentlichen Änderung des Lizenzmodells kann eine rechtliche Beratung angebracht sein.

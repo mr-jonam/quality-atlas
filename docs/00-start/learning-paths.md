@@ -1,18 +1,16 @@
 ---
-title: Learning Paths
+title: Lernpfade
 level: all
 roles: [qa-analyst, qa-engineer, automation-engineer, test-lead, developer]
 tags: [learning-path, onboarding, career]
 updated: 2026-09-22
 ---
+# Lernpfade
 
-# Learning Paths / Percorsi di apprendimento
 
-## English
+### Foundation-Route
 
-### Foundation route
-
-Suggested outcome: explain what testing can reveal, design useful checks, run an exploratory session, and report a defect clearly.
+Vorgeschlagenes Ergebnis: Erklären Sie, was Tests aufdecken können, entwerfen Sie nützliche Prüfungen, führen Sie eine Erkundungssitzung durch und melden Sie einen Fehler klar und deutlich.
 
 1. [[../10-foundations/qa-mindset]]
 2. [[../10-foundations/testing-fundamentals]]
@@ -21,58 +19,34 @@ Suggested outcome: explain what testing can reveal, design useful checks, run an
 5. [[../10-foundations/defect-communication]]
 6. [[../40-playbooks/exploratory-session]]
 
-### Automation route
+### Automatisierungsroute
 
-Suggested outcome: choose an appropriate automation layer, write maintainable checks, and integrate trustworthy feedback into delivery.
+Vorgeschlagenes Ergebnis: Wählen Sie eine geeignete Automatisierungsebene, schreiben Sie wartbare Schecks und integrieren Sie vertrauenswürdiges Feedback in die Lieferung.
 
-1. Complete the Foundation route.
+1. Schließen Sie die Foundation-Route ab.
 2. [[../20-intermediate/api-testing]]
 3. [[../20-intermediate/automation-engineering]]
 4. [[../20-intermediate/ci-cd-quality-gates]]
 5. [[../20-intermediate/test-operations]]
 6. [[../30-advanced/testability-architecture]]
 
-### Test lead route
+### Testleitungsroute
 
-Suggested outcome: establish a risk-based strategy, make release evidence visible, and grow a learning system without becoming a quality bottleneck.
+Vorgeschlagenes Ergebnis: Etablieren Sie eine risikobasierte Strategie, machen Sie Freigabenachweise sichtbar und entwickeln Sie ein Lernsystem, ohne dass es zu einem Qualitätsengpass kommt.
 
-1. Complete the Foundation route.
+1. Schließen Sie die Foundation-Route ab.
 2. [[../20-intermediate/risk-based-strategy]]
 3. [[../20-intermediate/non-functional-quality]]
 4. [[../30-advanced/metrics-observability]]
 5. [[../30-advanced/quality-leadership]]
 6. [[../40-playbooks/release-readiness]]
 
-### Complete QA engineer route
+### Schließe die Route des QA-Ingenieurs ab
 
-Use [[qa-engineer-roadmap]] to connect foundations, delivery models, functional and non-functional testing, automation, operations and quality leadership in one sequence.
+Verwenden Sie [[qa-engineer-roadmap]], um Grundlagen, Bereitstellungsmodelle, funktionale und nichtfunktionale Tests, Automatisierung, Betrieb und Qualitätsführerschaft in einer Sequenz zu verbinden.
 
-## Italiano
+## Lernschleife
 
-### Percorso base
+Für jede Notiz: Lesen Sie sie, fassen Sie sie mit Ihren eigenen Worten zusammen, wenden Sie sie auf ein fiktives Feature an, vergleichen Sie sie mit der Checkliste und notieren Sie eine offene Frage.
 
-Risultato atteso: spiegare cosa può rivelare il testing, progettare controlli utili, condurre una sessione esplorativa e descrivere un difetto con chiarezza.
-
-Segui le sei note del percorso Foundation elencate sopra.
-
-### Percorso automazione
-
-Risultato atteso: scegliere il livello di automazione appropriato, scrivere controlli manutenibili e integrare feedback affidabili nel processo di delivery.
-
-Completa il percorso base, poi studia API testing, automation engineering, quality gate CI/CD e testabilità.
-
-### Percorso test lead
-
-Risultato atteso: definire una strategia basata sul rischio, rendere visibili le evidenze di rilascio e far crescere un sistema di apprendimento senza diventare un collo di bottiglia.
-
-Completa il percorso base, poi approfondisci strategia, qualità non funzionale, metriche, leadership e release readiness.
-
-### Percorso QA engineer completo
-
-Usa [[qa-engineer-roadmap]] per collegare fondamenti, modelli di delivery, test funzionali e non funzionali, automazione, operations e leadership della qualità.
-
-## Study loop / Ciclo di studio
-
-For every note: read, summarize in your own words, apply to a fictional feature, compare with the checklist, and record one open question.
-
-Per ogni nota: leggi, riassumi con parole tue, applica a una funzionalità fittizia, confronta con la checklist e annota una domanda aperta.
+Für alle Notizen: Leggi, Riassumi con parole di, applica a funzionalità fittizia, konfrontieren Sie sich mit der Checkliste und kommentieren Sie eine Domanda-Anmerkung.

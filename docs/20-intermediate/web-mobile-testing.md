@@ -1,39 +1,29 @@
 ---
-title: Web and Mobile Testing
+title: Web- und Mobiltests
 level: intermediate
 roles: [qa-analyst, qa-engineer, automation-engineer]
 tags: [web-testing, mobile-testing, compatibility, usability]
 updated: 2026-09-21
 ---
+# Web- und Mobiltests
 
-# Web and Mobile Testing / Test web e mobile
 
-## English
+Priorisieren Sie repräsentative Kombinationen anhand von Analysen, Benutzeranforderungen, Supportrichtlinien und technischen Risiken, anstatt jede Kombination aus Gerät und Browser auszuprobieren.
 
-Prioritize representative combinations using analytics, user needs, support policy, and technical risk instead of attempting every device and browser combination.
+### Web-Objektive
 
-### Web lenses
+- Semantische Struktur, Tastaturbenutzung, Fokus, Zoom, Kontrast und Grundlagen des Screenreaders;
+- responsives Layout, Eingabemethoden, Lokalisierung und Zeitzonen;
+- Navigation, Deep Links, Verlauf, Aktualisierung, Sitzungsablauf und mehrere Registerkarten;
+- langsame oder unterbrochene Netzwerke, Caching, Speicherung und Offline-Verhalten;
+- Browser-Engines und unterstützte Versionen.
 
-- semantic structure, keyboard use, focus, zoom, contrast, and screen-reader basics;
-- responsive layout, input methods, localization, and time zones;
-- navigation, deep links, history, refresh, session expiry, and multiple tabs;
-- slow or interrupted networks, caching, storage, and offline behavior;
-- browser engines and supported versions.
+### Mobile Objektive
 
-### Mobile lenses
+- Installation, Aktualisierung, Deinstallation, Berechtigungen und erster Start;
+- Hintergrund-/Vordergrundübergänge, Unterbrechung, Rotation und geringe Ressourcen;
+- Gesten, virtuelle Tastatur, sichere Bereiche und Bildschirmgrößen;
+- Netzwerkwechsel, Flugmodus, Deep Links, Benachrichtigungen und Batterieverbrauch;
+- Betriebssystemversionen, Geräteklassen und Speicherverteilungspfade.
 
-- install, update, uninstall, permissions, and first launch;
-- background/foreground transitions, interruption, rotation, and low resources;
-- gestures, virtual keyboard, safe areas, and screen sizes;
-- network switching, airplane mode, deep links, notifications, and battery use;
-- OS versions, device classes, and store distribution paths.
-
-Use real devices for high-risk behavior and emulation for breadth. Record the exact device, OS, browser/app build, network condition, and orientation when reporting failures.
-
-## Italiano
-
-Seleziona combinazioni rappresentative usando dati di utilizzo, bisogni degli utenti, policy di supporto e rischio tecnico, invece di tentare ogni combinazione.
-
-Per il web considera semantica, tastiera, focus, zoom, contrasto, layout responsivo, localizzazione, navigazione, sessioni, rete lenta, cache e motori browser. Per il mobile considera installazione e aggiornamento, permessi, lifecycle, interruzioni, gesti, tastiera, rete, notifiche, risorse e distribuzione.
-
-Usa dispositivi reali per i comportamenti ad alto rischio ed emulazione per ampliare la copertura. Registra configurazione e condizioni esatte nei defect report.
+Verwenden Sie echte Geräte für risikoreiches Verhalten und Emulation für mehr Breite. Notieren Sie das genaue Gerät, Betriebssystem, Browser-/App-Build, Netzwerkzustand und Ausrichtung, wenn Sie Fehler melden.

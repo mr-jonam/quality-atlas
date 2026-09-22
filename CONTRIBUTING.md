@@ -1,23 +1,23 @@
-# Contributing
+# Mitwirken
 
-Contributions that improve clarity, correctness, accessibility, or language parity are welcome.
+Beiträge, die die Klarheit, Korrektheit, Zugänglichkeit oder Sprachparität verbessern, sind willkommen.
 
-## Content rules
+## Inhaltsregeln
 
-- Keep every note useful without organization-specific context.
-- Write English first and Italian second, with matching meaning.
-- Use fictional, generic examples and non-sensitive sample data.
-- Never add names, customer information, credentials, private URLs, internal architecture, or proprietary playbooks.
-- Prefer concise explanations, observable outcomes, and practical checklists.
-- Cite authoritative public sources when a claim depends on a standard or evolving practice.
-- Add the required YAML frontmatter and update `updated` using `YYYY-MM-DD`.
+- Sorgen Sie dafür, dass jede Notiz ohne organisationsspezifischen Kontext nützlich ist.
+- Write all educational content in Deutsch. Keep meaning aligned with the main branch.
+- Verwenden Sie fiktive, generische Beispiele und nicht sensible Beispieldaten.
+- Fügen Sie niemals Namen, Kundeninformationen, Anmeldeinformationen, private URLs, interne Architektur oder proprietäre Playbooks hinzu.
+- Bevorzugen Sie prägnante Erklärungen, beobachtbare Ergebnisse und praktische Checklisten.
+- Zitieren Sie maßgebliche öffentliche Quellen, wenn eine Behauptung von einem Standard oder einer sich entwickelnden Praxis abhängt.
+- Fügen Sie das erforderliche YAML-Frontmatter hinzu und aktualisieren Sie „aktualisiert“ mit „JJJJ-MM-TT“.
 
-## Workflow
+## Arbeitsablauf
 
 1. Create or edit a focused note.
 2. Link it from the closest map of content.
-3. Run `npm run check`.
-4. Review the diff for accidental sensitive data.
-5. Submit a pull request explaining the learning outcome.
+3. Führen Sie „npm run check“ aus.
+4. Überprüfen Sie den Diff auf versehentlich vertrauliche Daten.
+5. Senden Sie eine Pull-Anfrage, in der Sie das Lernergebnis erläutern.
 
-By contributing, you agree that documentation is licensed under CC BY 4.0 and code under MIT, as described in `LICENSE`.
+Durch Ihren Beitrag erklären Sie sich damit einverstanden, dass die Dokumentation unter CC BY 4.0 und der Code unter MIT lizenziert ist, wie unter „LIZENZ“ beschrieben.

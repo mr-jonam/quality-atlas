@@ -1,36 +1,24 @@
 ---
-title: Release Readiness Review
+title: Überprüfung der Release-Bereitschaft
 level: intermediate
 roles: [test-lead, qa-engineer, developer, product]
 tags: [release, readiness, risk, playbook]
 updated: 2026-09-21
 ---
+# Überprüfung der Release-Bereitschaft
 
-# Release Readiness Review / Verifica di readiness al rilascio
 
-## English
+Bei einer Bereitschaftsüberprüfung werden Entscheidungsnachweise zusammengestellt. Es sollte keine zeremonielle Qualitätssicherungsgenehmigung sein.
 
-A readiness review assembles decision evidence; it should not be a ceremonial QA approval.
+### Rezension
 
-### Review
+- beabsichtigter Umfang und Benutzerergebnis;
+- geänderte Komponenten, Daten, Integrationen und Konfiguration;
+- Top-Risiken und entsprechende Präventions- oder Testnachweise;
+- ungelöste Mängel und explizite Restauswirkungen;
+- Bereitstellungs-, Migrations-, Kompatibilitäts- und Rollback-Plan;
+- Überwachung, Alarmverantwortung, Supportinformationen und Vorfallpfad;
+- progressive Abgabe- oder Expositionskontrollen;
+- Erforderliche Genehmigungen für Sicherheit, Datenschutz, Zugänglichkeit oder Vorschriften.
 
-- intended scope and user outcome;
-- changed components, data, integrations, and configuration;
-- top risks and corresponding prevention or test evidence;
-- unresolved defects and explicit residual impact;
-- deployment, migration, compatibility, and rollback plan;
-- monitoring, alert ownership, support information, and incident path;
-- progressive delivery or exposure controls;
-- required approvals for security, privacy, accessibility, or regulation.
-
-Record the decision, assumptions, owner, time, and conditions. A conditional release must have measurable conditions and a named follow-up.
-
-## Italiano
-
-La readiness raccoglie evidenze per decidere; non dovrebbe essere un'approvazione cerimoniale del QA.
-
-Rivedi scope e outcome, componenti e configurazioni modificate, rischi principali, difetti aperti, deployment, migrazioni, compatibilità, rollback, monitoraggio, supporto, progressive delivery e approvazioni necessarie.
-
-Registra decisione, assunzioni, owner, momento e condizioni. Un rilascio condizionato richiede condizioni misurabili e un follow-up assegnato.
-
-Use `templates/release-readiness.md`.
+Notieren Sie die Entscheidung, Annahmen, Eigentümer, Zeit und Bedingungen. Eine bedingte Freigabe muss messbare Bedingungen und eine benannte Nachverfolgung haben.

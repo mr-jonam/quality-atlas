@@ -1,34 +1,24 @@
 ---
-title: Performance and Reliability Testing
+title: Leistungs- und Zuverlässigkeitstests
 level: advanced
 roles: [qa-engineer, automation-engineer, test-lead, developer]
 tags: [performance-testing, reliability, resilience, load-testing]
 updated: 2026-09-21
 ---
+# Leistungs- und Zuverlässigkeitstests
 
-# Performance and Reliability Testing / Test di performance e affidabilità
 
-## English
+Beginnen Sie mit einem Workload-Modell, das auf erwarteten Fahrten, Ankunftsmustern, Datengrößen, Parallelität, Geografie und Abhängigkeiten basiert. Eine vom Tool generierte Verkehrszählung ist kein Workload-Modell.
 
-Begin with a workload model based on expected journeys, arrival patterns, data sizes, concurrency, geography, and dependencies. A tool-generated traffic count is not a workload model.
+### Arten von Leistungsexperimenten
 
-### Performance experiment types
+- Ausgangswert und Benchmark zum Vergleich;
+- Belastung für erwarteten Bedarf;
+- Stress, Grenzen und Fehlermöglichkeiten zu lokalisieren;
+- Spitze für plötzliche Veränderung;
+- Beständigkeit gegen Lecks, Sättigung und Verschlechterung;
+- Kapazität für Planungsspielraum.
 
-- baseline and benchmark for comparison;
-- load for expected demand;
-- stress to locate limits and failure modes;
-- spike for sudden change;
-- endurance for leaks, saturation, and degradation;
-- capacity for planning headroom.
+Messen Sie Latenzverteilungen, Durchsatz, Fehler, Sättigung, Warteschlangen, Ressourcennutzung und Downstream-Verhalten. Aufwärmen, Testdaten, Cache-Status, Netzwerk und Observability-Overhead können die Ergebnisse verändern. Wiederholen Sie kontrollierte Experimente und behalten Sie die Konfiguration mit den Ergebnissen bei.
 
-Measure latency distributions, throughput, errors, saturation, queues, resource use, and downstream behavior. Warm-up, test data, cache state, network, and observability overhead can change results. Repeat controlled experiments and retain configuration with results.
-
-Reliability testing also examines dependency failure, retry storms, partial degradation, failover, recovery, data integrity, and operator response. Chaos experiments require a hypothesis, blast-radius controls, observability, abort conditions, and informed approval.
-
-## Italiano
-
-Parti da un modello di carico basato su percorsi attesi, arrivi, dimensioni dei dati, concorrenza, geografia e dipendenze. Un numero di richieste generato da uno strumento non è un modello.
-
-Usa esperimenti di baseline, carico, stress, spike, endurance e capacità secondo l'obiettivo. Misura distribuzioni di latenza, throughput, errori, saturazione, code, risorse e dipendenze. Conserva configurazione e condizioni con i risultati.
-
-L'affidabilità include guasti di dipendenze, tempeste di retry, degrado parziale, failover, recupero, integrità dei dati e risposta operativa. Gli esperimenti di chaos richiedono ipotesi, blast radius limitato, osservabilità, condizioni di arresto e approvazione informata.
+Bei Zuverlässigkeitstests werden auch Abhängigkeitsfehler, Wiederholungsstürme, teilweise Verschlechterung, Failover, Wiederherstellung, Datenintegrität und Bedienerreaktion untersucht. Chaos-Experimente erfordern eine Hypothese, Kontrolle des Explosionsradius, Beobachtbarkeit, Abbruchbedingungen und eine informierte Genehmigung.

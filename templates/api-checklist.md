@@ -1,20 +1,19 @@
 ---
-title: API Test Checklist
+title: API-Test-Checkliste
 level: intermediate
 roles: [qa-engineer, automation-engineer, developer]
 tags: [template, api-testing, checklist]
 updated: 2026-09-21
 ---
+# API-Test-Checkliste
 
-# API test checklist / Checklist test API
-
-- [ ] Contract, methods, paths, status codes, headers, and media types
-- [ ] Required, optional, null, default, and unknown fields
-- [ ] Valid, invalid, boundary, duplicate, and out-of-order requests
-- [ ] Authentication, authorization, tenant isolation, and sensitive output
-- [ ] Pagination, filter, sort, locale, time zone, and large datasets
-- [ ] Idempotency, concurrency, timeouts, retries, and rate limiting
-- [ ] Error format, correlation identifiers, logs, and observability
-- [ ] Compatibility, deprecation, consumer assumptions, and versioning
-- [ ] Dependency failure and recovery behavior
-- [ ] Data cleanup and privacy-safe evidence
+- [ ] Vertrag, Methoden, Pfade, Statuscodes, Header und Medientypen
+- [ ] Erforderliche, optionale, Null-, Standard- und unbekannte Felder
+- [ ] Gültige, ungültige, Grenz-, Duplikat- und Out-of-Order-Anfragen
+- [ ] Authentifizierung, Autorisierung, Mandantenisolierung und vertrauliche Ausgabe
+- [ ] Paginierung, Filter, Sortierung, Gebietsschema, Zeitzone und große Datensätze
+- [ ] Idempotenz, Parallelität, Zeitüberschreitungen, Wiederholungsversuche und Ratenbegrenzung
+- [ ] Fehlerformat, Korrelationskennungen, Protokolle und Beobachtbarkeit
+- [ ] Kompatibilität, veraltet, Verbraucherannahmen und Versionierung
+- [ ] Abhängigkeitsfehler und Wiederherstellungsverhalten
+- [ ] Datenbereinigung und datenschutzsichere Beweise

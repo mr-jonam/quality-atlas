@@ -1,32 +1,31 @@
 ---
-title: Exploratory Test Charter Template
+title: Sondierungscharta
 level: all
 roles: [qa-analyst, qa-engineer, developer, product]
 tags: [template, exploratory-testing]
 updated: 2026-09-21
 ---
+# Sondierungscharta
 
-# Exploratory charter / Charter esplorativo
-
-Explore **[target]** with **[resources or techniques]** to discover information about **[risk or question]**.
+Erkunden Sie **[Ziel]** mit **[Ressourcen oder Techniken]**, um Informationen über **[Risiko oder Frage]** zu erhalten.
 
 - Timebox:
-- People:
-- Environment and data:
-- Oracles:
-- In scope:
-- Out of scope:
+- Personen:
+- Umgebung und Daten:
+- Orakel:
+- Im Umfang:
+- Außerhalb des Geltungsbereichs:
 
-## Notes / Note
+## Notizen
 
-| Time | Action | Observation, idea, issue, or question |
+| Zeit | Aktion | Beobachtung, Idee, Problem oder Frage |
 |---|---|---|
 | | | |
 
-## Debrief
+## Nachbesprechung
 
-- Coverage / Copertura:
-- Findings / Risultati:
-- Evidence / Evidenze:
-- Open questions / Domande aperte:
-- Follow-ups / Prossime azioni:
+- Abdeckung
+- Erkenntnisse
+- Beweise
+- Offene Fragen
+- Nachverfolgungen
