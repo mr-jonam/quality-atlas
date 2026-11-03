@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="280" viewBox="0 0 1100 280" role="img" aria-labelledby="title desc">
+  <title id="title">Quality Atlas — A shared language for software quality.</title>
+  <desc id="desc">Bilingual QA knowledge, onboarding and team learning.. READ  /  DISCUSS  /  ADAPT TO YOUR CONTEXT  ·  EN + IT.</desc>
+  <rect width="1100" height="280" rx="16" fill="#0c1218"/>
+  <rect x="32" y="34" width="5" height="210" rx="2" fill="#82dac9"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="60" y="65" fill="#82dac9" font-size="17" font-weight="700" letter-spacing="2">QUALITY ATLAS</text>
+    <text x="60" y="132" fill="#f2f5f7" font-size="43" font-weight="700">A shared language for software quality.</text>
+    <text x="60" y="177" fill="#d2dde2" font-size="22">Bilingual QA knowledge, onboarding and team learning.</text>
+    <text x="60" y="232" fill="#82dac9" font-size="17">READ  /  DISCUSS  /  ADAPT TO YOUR CONTEXT  ·  EN + IT</text>
+  </g>
+</svg>

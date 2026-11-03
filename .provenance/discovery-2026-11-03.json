@@ -1,0 +1,51 @@
+{
+  "schema": "mr-jonam.discovery-integrity.v1",
+  "project_id": "f973ddfe-e831-43ca-b545-2c03bf9b0833",
+  "owner_ref": "mr-jonam",
+  "created_at": "2026-11-03T10:31:11.136Z",
+  "record_type": "discovery-navigation-update",
+  "source_commit": "5c0deea27fea2b1cfb0df2089538f7d23bd48d1a",
+  "existing_identity_record": "PROVENANCE.md",
+  "rights_profile": "CC-BY-4.0 (text/media); MIT (existing software/config)",
+  "license": {
+    "path": "LICENSE",
+    "sha256": "c00b5874e66a43978529d6b138e3fa26d4c7243cd9373ffe7dc85ef5bb69bef4"
+  },
+  "change_scope": "Original README routing, platform questions, CTA artwork, contact/share navigation and component rights review. Includes the two new overview images where listed.",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "6112ea567e4afe940071ad8484dfbb17fe45507c5133e0d823dc5daaefa459c8",
+      "representation": "Git blob bytes at source_commit"
+    },
+    {
+      "path": "LICENSE-DECISION.md",
+      "sha256": "833cfe3019fd94260ff6921a338578b0e8e038fb1e08db42c609e3a41db3b89a",
+      "representation": "Git blob bytes at source_commit"
+    },
+    {
+      "path": "README.md",
+      "sha256": "6e9cb408823b7933d0e4e6967b2052e54188878dd087f92cffcc322df133e824",
+      "representation": "Git blob bytes at source_commit"
+    },
+    {
+      "path": "assets/atlas-overview.svg",
+      "sha256": "c57cf280884c0fad2b6b86a8b35ba819aa80aac6bf07b1df7628bdefb37c0d10",
+      "representation": "UTF-8 working-tree bytes (LF)"
+    },
+    {
+      "path": "assets/cta-discuss.svg",
+      "sha256": "ddeb77721bf50789eb85ae2023ec6efd3bb906d0bf80bd477bdb5dcbd30138be",
+      "representation": "Git blob bytes at source_commit"
+    },
+    {
+      "path": "assets/cta-learn.svg",
+      "sha256": "66235d5fc9827ddd9395b6ac47bf8b757fd8afb5c7f99d06b2e7a265b1af1e5d",
+      "representation": "Git blob bytes at source_commit"
+    }
+  ],
+  "manifest_sha256": "52c409f6bd1410c241517a97ebfdf5b7526109a0e18f12c28fb3d8323608a6ed",
+  "signing": null,
+  "identity_envelope": null,
+  "limitations": "Unsigned integrity record. Preserves existing project identity and records; not conclusive legal authorship proof, DRM or guaranteed copy detection. No private key or plaintext private identity is included."
+}
