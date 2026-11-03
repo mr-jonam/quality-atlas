@@ -5,6 +5,7 @@
 - Entry points: `README.md`, `docs/00-start/home.md`, `web/server.mjs`.
 - Content: `docs/`; reusable worksheets: `templates/`.
 - Web UI: `web/public/`; no client or runtime dependencies.
+- README artwork: original `assets/*.svg` under CC BY 4.0; navigation connects learning paths to optional scoped QA360 support without changing the educational content or its reuse rights.
 - Validation: `npm run check`.
 - Local web: `npm run dev`, then open `http://localhost:4173`.
 - Docker: `docker compose up --build`.

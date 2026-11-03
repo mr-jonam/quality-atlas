@@ -17,3 +17,11 @@ The project is intended for broad educational reuse and discovery. CC BY 4.0 kee
 - GitHub's platform terms permit public viewing and repository forking. A public repository is appropriate because discoverability and reuse are explicit goals.
 
 Future contributions must confirm that the contributor has the right to submit the material under the applicable license. Legal advice may be appropriate before materially changing the licensing model.
+
+## Discovery and navigation review — 2026-11-03
+
+New original README navigation, one overview SVG and two SVG buttons are documentation/media under CC-BY-4.0; the existing MIT scope for web reader, scripts and configuration is unchanged. LICENSE, LICENSES and NOTICE remain authoritative. The educational notes, worksheets and public reuse permissions are preserved. System fonts are referenced, not distributed.
+
+External resources are linked, not copied. New wording describes reading outputs and objectives to scope, not guaranteed improvements, measured outcomes, vendor endorsement or new credentials. No customer data, confidential method, private repository link, paid service, analytics, funding change, workflow, release or deployment is introduced. Existing funding decisions are preserved.
+
+This is a scoped component and publication review, not an independent ownership determination. Existing provenance is preserved; an additive unsigned integrity record identifies the changed files. No signing key or encryption recipient was supplied, and no key or identity envelope is created.

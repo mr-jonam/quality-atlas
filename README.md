@@ -1,8 +1,25 @@
 # Quality Atlas
 
+<img src="assets/atlas-overview.svg" width="100%" alt="Quality Atlas. A shared language for software quality. Bilingual QA knowledge, onboarding and team learning." />
+
 Quality Atlas is an open, bilingual knowledge base for software quality assurance and testing. It supports onboarding, knowledge transfer, self-study, interview preparation, and team learning from foundation to advanced level.
 
 Quality Atlas è una knowledge base aperta e bilingue dedicata alla quality assurance e al software testing. Supporta onboarding, knowledge transfer, studio autonomo, preparazione ai colloqui e apprendimento di team, dal livello base a quello avanzato.
+
+<p><a href="docs/00-start/learning-paths.md"><img src="assets/cta-learn.svg" width="290" height="60" alt="Open the bilingual QA learning paths" /></a> <a href="https://www.linkedin.com/in/manoj-rollo/"><img src="assets/cta-discuss.svg" width="290" height="60" alt="Discuss your QA challenge on LinkedIn" /></a></p>
+
+## Find a useful first read / Scegli una prima lettura utile
+
+| Your question / La tua domanda | Read / Leggi | Useful result / Risultato utile |
+| --- | --- | --- |
+| What do we mean by risk and coverage? / Cosa intendiamo per rischio e copertura? | [Risk-based strategy](docs/20-intermediate/risk-based-strategy.md) | Terms to align before planning / Termini da allineare prima di pianificare |
+| What evidence belongs in a release discussion? / Quali evidenze servono per parlare del rilascio? | [Release readiness](docs/40-playbooks/release-readiness.md) | Questions for the accountable owners / Domande per i responsabili della decisione |
+| What should a performance discussion include? / Cosa includere nel confronto sulle performance? | [Performance and reliability](docs/30-advanced/performance-reliability.md) | Concepts to clarify before defining workloads / Concetti da chiarire prima di definire i carichi |
+| How can we make onboarding more coherent? / Come rendere più coerente l'onboarding? | [Learning paths](docs/00-start/learning-paths.md) | A reading route to adapt to the team's needs / Un percorso da adattare al team |
+
+These notes support learning; applying them to a live SAP, ServiceNow, Salesforce, Dynamics 365 or web-platform release needs product evidence and accountable owners. / Le note supportano l'apprendimento; applicarle a un rilascio reale SAP, ServiceNow, Salesforce, Dynamics 365 o web richiede evidenze sul prodotto e responsabili della decisione.
+
+For assessment, delivery support or a B2B partnership, explore [Quality Engineering 360](https://github.com/mr-jonam/quality-engineering-360#choose-a-starting-point), then [discuss your QA challenge](https://www.linkedin.com/in/manoj-rollo/). Share the topic you read, the decision ahead and the uncertainty to investigate. / Per assessment, supporto operativo o partnership B2B, esplora [Quality Engineering 360 in italiano](https://github.com/mr-jonam/quality-engineering-360/blob/main/README.it.md#scegliere-da-dove-partire), poi [confrontiamoci](https://www.linkedin.com/in/manoj-rollo/): indica lettura, decisione e dubbio da approfondire. Perimetro e condizioni si concordano separatamente.
 
 ## Start here / Inizia qui
 
