@@ -2,6 +2,12 @@
 
 Contributions that improve clarity, correctness, accessibility, or language parity are welcome.
 
+## A small first contribution / Un primo contributo piccolo
+
+Choose one: clarify a glossary definition, fix a broken public reference, or improve one worksheet instruction. Keep English and Italian aligned; describe the learning problem and the expected improvement in your pull request. / Scegli una definizione del glossario, un riferimento pubblico non funzionante o un'istruzione poco chiara in un template. Allinea inglese e italiano e spiega nella pull request il problema di apprendimento e il miglioramento atteso.
+
+For a documentation-only edit, no installation is needed: edit Markdown and run `npm run check` with Node.js 20+. Use the [worked example](examples/first-release-review.md) to understand the intended level of specificity. / Per modificare la documentazione non servono installazioni: modifica il Markdown ed esegui `npm run check` con Node.js 20+. L'[esempio](examples/first-release-review.md) mostra il livello di dettaglio atteso.
+
 ## Content rules
 
 - Keep every note useful without organization-specific context.

@@ -25,3 +25,9 @@ New original README navigation, one overview SVG and two SVG buttons are documen
 External resources are linked, not copied. New wording describes reading outputs and objectives to scope, not guaranteed improvements, measured outcomes, vendor endorsement or new credentials. No customer data, confidential method, private repository link, paid service, analytics, funding change, workflow, release or deployment is introduced. Existing funding decisions are preserved.
 
 This is a scoped component and publication review, not an independent ownership determination. Existing provenance is preserved; an additive unsigned integrity record identifies the changed files. No signing key or encryption recipient was supplied, and no key or identity envelope is created.
+
+## First-use and community review — 2026-11-06
+
+New original README wording, synthetic examples and editorial guidance use CC-BY-4.0 for new examples and editorial documentation; existing MIT software scope unchanged. Public references are linked, not copied. No third-party runtime code, client evidence or externally submitted contribution is introduced. Existing copyright, NOTICE, funding, contribution policy and inception provenance remain in force. These changes improve the reading journey without claiming test execution, model evaluation, adoption or guaranteed follower growth.
+
+This is a scoped component review. It does not independently verify legal title, employer agreements or the full historical dependency inventory. An additive unsigned record identifies changed files and the licence hash; no private key, signature or encrypted identity is created without user-controlled inputs.

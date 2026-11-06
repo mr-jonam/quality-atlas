@@ -15,3 +15,4 @@
 - Every note needs YAML fields: `title`, `level`, `roles`, `tags`, `updated`.
 - Use relative Markdown links or Obsidian wiki links; never add personal or client data.
 - Licensing: documentation CC BY 4.0; site/scripts MIT. See `LICENSE-DECISION.md`.
+- First-use demonstration: `examples/first-release-review.md`, bilingual and synthetic; link it from the README and contribution guidance.

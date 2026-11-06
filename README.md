@@ -8,6 +8,12 @@ Quality Atlas è una knowledge base aperta e bilingue dedicata alla quality assu
 
 <p><a href="docs/00-start/learning-paths.md"><img src="assets/cta-learn.svg" width="290" height="60" alt="Open the bilingual QA learning paths" /></a> <a href="https://www.linkedin.com/in/manoj-rollo/"><img src="assets/cta-discuss.svg" width="290" height="60" alt="Discuss your QA challenge on LinkedIn" /></a></p>
 
+## Try one worksheet / Prova un template
+
+**Problem / Problema:** a team has a green dashboard but cannot explain the evidence behind a release decision. / Il team vede una dashboard verde, ma non sa spiegare le evidenze per decidere il rilascio.
+
+Read the [fictional release-review example](examples/first-release-review.md), then adapt the [release-readiness worksheet](templates/release-readiness.md). Start with one fact, one missing item and one accountable owner. No installation is needed. / Leggi l'[esempio fittizio di review](examples/first-release-review.md), poi adatta il [template di readiness](templates/release-readiness.md). Parti da un fatto, un'evidenza mancante e un responsabile. Non serve installare nulla.
+
 ## Find a useful first read / Scegli una prima lettura utile
 
 | Your question / La tua domanda | Read / Leggi | Useful result / Risultato utile |
