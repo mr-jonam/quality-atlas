@@ -16,3 +16,5 @@
 - Use relative Markdown links or Obsidian wiki links; never add personal or client data.
 - Licensing: documentation CC BY 4.0; site/scripts MIT. See `LICENSE-DECISION.md`.
 - First-use demonstration: `examples/first-release-review.md`, bilingual and synthetic; link it from the README and contribution guidance.
+
+- Reader feedback: `.github/ISSUE_TEMPLATE/example-feedback.md`; accept short EN/IT reading or worksheet feedback without requiring code or a professional enquiry.

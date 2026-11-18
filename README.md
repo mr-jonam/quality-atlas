@@ -14,6 +14,8 @@ Quality Atlas è una knowledge base aperta e bilingue dedicata alla quality assu
 
 Read the [fictional release-review example](examples/first-release-review.md), then adapt the [release-readiness worksheet](templates/release-readiness.md). Start with one fact, one missing item and one accountable owner. No installation is needed. / Leggi l'[esempio fittizio di review](examples/first-release-review.md), poi adatta il [template di readiness](templates/release-readiness.md). Parti da un fatto, un'evidenza mancante e un responsabile. Non serve installare nulla.
 
+**One question for you / Una domanda:** which instruction would you need clarified before using the worksheet? [Leave a short example-feedback issue](https://github.com/mr-jonam/quality-atlas/issues/new?template=example-feedback.md), in English or Italian. No code contribution or professional enquiry is needed. / Quale istruzione vorresti chiarire prima di usare il template? [Segnalala con un breve feedback](https://github.com/mr-jonam/quality-atlas/issues/new?template=example-feedback.md), in italiano o inglese. Non serve proporre codice o chiedere una consulenza.
+
 ## Find a useful first read / Scegli una prima lettura utile
 
 | Your question / La tua domanda | Read / Leggi | Useful result / Risultato utile |

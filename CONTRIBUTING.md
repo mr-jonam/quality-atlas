@@ -2,6 +2,8 @@
 
 Contributions that improve clarity, correctness, accessibility, or language parity are welcome.
 
+For feedback without editing files, [open the example-feedback template](https://github.com/mr-jonam/quality-atlas/issues/new?template=example-feedback.md). Name the resource, the step you tried and one unclear instruction or useful result. English and Italian are welcome; use fictional details only. / Per dare feedback senza modificare file, [usa il template dedicato](https://github.com/mr-jonam/quality-atlas/issues/new?template=example-feedback.md): indica risorsa, passaggio provato e un'istruzione poco chiara o un risultato utile. Usa solo dettagli inventati.
+
 ## A small first contribution / Un primo contributo piccolo
 
 Choose one: clarify a glossary definition, fix a broken public reference, or improve one worksheet instruction. Keep English and Italian aligned; describe the learning problem and the expected improvement in your pull request. / Scegli una definizione del glossario, un riferimento pubblico non funzionante o un'istruzione poco chiara in un template. Allinea inglese e italiano e spiega nella pull request il problema di apprendimento e il miglioramento atteso.

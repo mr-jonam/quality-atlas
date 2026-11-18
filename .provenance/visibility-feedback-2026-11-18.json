@@ -1,0 +1,39 @@
+{
+  "schema": "mr-jonam.visibility-feedback-integrity.v1",
+  "change_id": "3d747a02-6189-40ca-9265-bb0d8ea4f1b2",
+  "owner_ref": "mr-jonam",
+  "date": "2026-11-18",
+  "source_base_commit": "d7d3d2057e44e508e02df2e98b48a42bd13697a8",
+  "existing_identity_record": ".provenance/discovery-2026-11-03.json",
+  "scope": "Only listed original editorial changes, template and component review; private coordinator also includes aggregate KPI observations and planning. No application-code or full historical rights audit.",
+  "representation": "UTF-8 text with CRLF normalised to LF; working-tree content before local change commit",
+  "license": {
+    "path": "LICENSE",
+    "sha256": "c00b5874e66a43978529d6b138e3fa26d4c7243cd9373ffe7dc85ef5bb69bef4"
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "6eefb98845e4ca8ff62882a97433358157100dcd7ca90105954d2ac31462df0e"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "bfed07bafac9f56d807a05b146739158d0aba31e019283c057722044d185c8ac"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "063573a44b932b8acb45c15b84ac32ad163bdb87389d2d26613ae57aa1e3aa33"
+    },
+    {
+      "path": "LICENSE-DECISION.md",
+      "sha256": "5b0ac2da995478de28a6000e7ddacabdd2dd12de1b95739af486d29efd0e38cb"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/example-feedback.md",
+      "sha256": "cbdcef1b53f4330cfdf77db2933b97c382aa8871f78ad91a0c3372f2a99cd955"
+    }
+  ],
+  "signing": null,
+  "identity_envelope": null,
+  "limitations": "Unsigned integrity snapshot; no new project identity or private key. Does not establish ownership, adoption or causal impact. Existing provenance remains historical."
+}

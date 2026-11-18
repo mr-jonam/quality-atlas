@@ -31,3 +31,9 @@ This is a scoped component and publication review, not an independent ownership 
 New original README wording, synthetic examples and editorial guidance use CC-BY-4.0 for new examples and editorial documentation; existing MIT software scope unchanged. Public references are linked, not copied. No third-party runtime code, client evidence or externally submitted contribution is introduced. Existing copyright, NOTICE, funding, contribution policy and inception provenance remain in force. These changes improve the reading journey without claiming test execution, model evaluation, adoption or guaranteed follower growth.
 
 This is a scoped component review. It does not independently verify legal title, employer agreements or the full historical dependency inventory. An additive unsigned record identifies changed files and the licence hash; no private key, signature or encrypted identity is created without user-controlled inputs.
+
+## Visibility and feedback review — 2026-11-18
+
+The README feedback question, contribution guidance and Markdown issue template are original educational/editorial material under the existing CC BY 4.0 terms. The MIT scope for the reader and scripts is unchanged. Feedback may be given without code or professional contact; examples must be synthetic. No new dependency, artwork, funding channel or workflow is introduced.
+
+This is a scoped component review, not an independent ownership determination. Preserve all earlier provenance records and add a separate unsigned integrity snapshot for this revision. No signing key or encryption recipient was provided; no keys or identity envelope are created.
